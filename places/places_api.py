@@ -57,10 +57,10 @@ TYPE = 'establishment'
 # Define the language
 LANGUAGE ='en'
 
-# Define the search: distance or prominence
-SEARCH ='distance'
+# Define the search: distance, prominence or radarsearch
+SEARCH ='radarsearch'
 
-def getPlaces(pagetoken=False, location=False):
+def getPlaces(pagetoken=False, location=False, polygon_id=-1):
 	
 	# Get time
 	gPstart = datetime.now()
@@ -69,24 +69,32 @@ def getPlaces(pagetoken=False, location=False):
 	if not pagetoken:
 		if SEARCH == 'distance':
 			# Search with "rank by distance"
-			url = ('https://maps.googleapis.com/maps/api/place/search/json?location=%s&rankby=distance&types=%s&laguage=%s&sensor=false&key=%s') % (location, TYPE, LANGUAGE, AUTH_KEY)
+			url = ('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%s&rankby=distance&types=%s&laguage=%s&sensor=false&key=%s') % (location, TYPE, LANGUAGE, AUTH_KEY)
+# 			print '%s\n' % (url)
+		elif SEARCH == 'prominence':
+			# Search with "prominece with radius"
+			url = ('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%s&radius=%s&types=%s&laguage=%s&sensor=false&key=%s') % (location, RADIUS, TYPE, LANGUAGE, AUTH_KEY)
 # 			print '%s\n' % (url)
 		else:
 			# Search with "prominece with radius"
-			url = ('https://maps.googleapis.com/maps/api/place/search/json?location=%s&radius=%s&types=%s&laguage=%s&sensor=false&key=%s') % (location, RADIUS, TYPE, LANGUAGE, AUTH_KEY)
+			url = ('https://maps.googleapis.com/maps/api/place/radarsearch/json?location=%s&radius=%s&types=%s&laguage=%s&sensor=false&key=%s') % (location, RADIUS, TYPE, LANGUAGE, AUTH_KEY)
 # 			print '%s\n' % (url)
 	else:
 		if SEARCH == 'distance':
 			# Search with "rank by distance"
-			url = ('https://maps.googleapis.com/maps/api/place/search/json?location=%s&rankby=distance&types=%s&laguage=%s&pagetoken=%s&sensor=false&key=%s') % (location, TYPE, LANGUAGE, pagetoken, AUTH_KEY)
+			url = ('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%s&rankby=distance&types=%s&laguage=%s&pagetoken=%s&sensor=false&key=%s') % (location, TYPE, LANGUAGE, pagetoken, AUTH_KEY)
+# 			print '%s\n' % (url)
+		elif SEARCH == 'prominence':
+			# Search with "prominece with radius"
+			url = ('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%s&radius=%s&types=%s&laguage=%s&pagetoken=%s&sensor=false&key=%s') % (location, RADIUS, TYPE, LANGUAGE, pagetoken, AUTH_KEY)
 # 			print '%s\n' % (url)
 		else:
 			# Search with "prominece with radius"
-			url = ('https://maps.googleapis.com/maps/api/place/search/json?location=%s&radius=%s&types=%s&laguage=%s&pagetoken=%s&sensor=false&key=%s') % (location, RADIUS, TYPE, LANGUAGE, pagetoken, AUTH_KEY)
+			url = ('https://maps.googleapis.com/maps/api/place/radarsearch/json?location=%s&radius=%s&types=%s&laguage=%s&pagetoken=%s&sensor=false&key=%s') % (location, RADIUS, TYPE, LANGUAGE, pagetoken, AUTH_KEY)
 # 			print '%s\n' % (url)
 
-		# 		print '%s\n' % (url)
-		
+	print '%s\n' % (url)
+
 	# Send the GET request to the Place details service (using url from above)	
 	request = urllib2.Request(url)
 	request.add_header('User-agent', 'Mozilla/5.0 (Linux i686)')
@@ -107,7 +115,7 @@ def getPlaces(pagetoken=False, location=False):
 		f.write('%s: %s \n' % ('Connection Failed', time.time()))
 	
 	cur = conn.cursor()
-		
+	
 	# Iterate through the results and insert into the DB
 	status = json_data['status']
 	if status == 'OK':
@@ -121,7 +129,7 @@ def getPlaces(pagetoken=False, location=False):
 	  	conn.commit()	
 	  	
 		if 'reference' in place and cur.rowcount == 0:
-			status_details = getDetails(reference)	
+			status_details = getDetails(reference, polygon_id)	
 			
 			if status_details == 'OVER_QUERY_LIMIT':
 				return status_details		
@@ -159,10 +167,10 @@ def getPlaces(pagetoken=False, location=False):
 # 		print gPresto
 		if gPresto < 2:
 			time.sleep( 2 )
-		getPlaces(next_page_token,location)
+		getPlaces(next_page_token, location, polygon_id)
 	
 			
-def getDetails(reference):
+def getDetails(reference, polygon_id):
 	# Compose a URL to query place details
 	url = ('https://maps.googleapis.com/maps/api/place/details/json?reference=%s&laguage=%s&sensor=false&key=%s') % (reference, LANGUAGE, AUTH_KEY)
 # 	print '%s\n' % (url)
@@ -227,18 +235,17 @@ def getDetails(reference):
 	  		url_g = ''
 	  		
 		try:
-			cur.execute('UPDATE place SET id=%s, name=%s, lat=%s, lng=%s, address=%s, rating=%s, reference=%s, website=%s, url_g=%s, phone=%s WHERE id=%s', 
-				(idp, name, lat, lng, address, rating, reference, website, url_g , phone, idp))
-			
-			cur.execute('INSERT INTO place ( id, name, lat, lng, address, rating, reference, website, url_g, phone ) SELECT %s, %s, %s, %s, %s, %s, %s, %s ,%s ,%s WHERE NOT EXISTS (SELECT 1 FROM place WHERE id=%s)', 
-				(idp, name, lat, lng, address, rating, reference, website, url_g , phone, idp))
+			cur.execute('UPDATE place SET id=%s, name=%s, lat=%s, lng=%s, address=%s, rating=%s, reference=%s, website=%s, url_g=%s, phone=%s, place_polygon_id=%s WHERE id=%s', (idp, name, lat, lng, address, rating, reference, website, url_g , phone, polygon_id, idp))
+			conn.commit()
+			cur.execute('INSERT INTO place (id, place_polygon_id, name, lat, lng, address, rating, reference, website, url_g, phone) SELECT %s, %s, %s, %s, %s, %s, %s, %s ,%s ,%s, %s WHERE NOT EXISTS (SELECT 1 FROM place WHERE id=%s)', (idp, polygon_id, name, lat, lng, address, rating, reference, website, url_g , phone, idp))
 			conn.commit()
 			
 		except:
+			print 4
 			f.write('%s: %s, %s, %s, %s \n' % ('Fail to Upsert', name, reference, url, time.time()))
 		
-		#Delete relation place - type 
-	  	cur.execute('DELETE from place_type where place_id=%s', [idp])
+		#Delete relation place - type
+	  	cur.execute('DELETE from place_type where place_id=%s', (idp,))
 	  	conn.commit()	
 	  	
 	  	# Insert Google plus types
@@ -344,6 +351,8 @@ def insertType(type, origin, place_id):
 
 
 done = False
+# Las Vegas polygon
+polygon_id = 163534
 
 # Conection to DB
 try:
@@ -356,7 +365,7 @@ cur = conn.cursor()
 while not done:
 	# cur.execute('SELECT lat, lng FROM point where scraped = FALSE and (polygon_id=92 or polygon_id=80 or polygon_id=100 or polygon_id=120)')
 	cur.execute('BEGIN')
-	cur.execute('SELECT ST_X(geom) as x, ST_Y(geom) as y FROM point where idx = FALSE LIMIT %s', [LIMIT])
+	cur.execute('SELECT ST_X(geom) as x, ST_Y(geom) as y FROM point where idx = FALSE and polygon_id=%s LIMIT %s', (polygon_id, LIMIT,))
 	points = cur.fetchall()
 	if cur.rowcount < 1:
 		done = True
@@ -374,9 +383,9 @@ while not done:
 		lng = point[0]
 		location = '%s,%s' % (lat, lng)
 		print location
-	 	res = getPlaces(False, location)
+	 	res = getPlaces(False, location, polygon_id)
 		if res == 'OVER_QUERY_LIMIT':
-			#Change api_key or stop
+			# Change api_key or stop
 			if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:
 				today = datetime.now(timezone('America/Los_Angeles'))
 				start = datetime(today.year, today.month, today.day, tzinfo=tz.tzutc())
@@ -387,7 +396,7 @@ while not done:
 			else:
 				KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
 				AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
-				getPlaces(False, location)
+				getPlaces(False, location, polygon_id)
 		else:
 			cur.execute('UPDATE point SET scraped = TRUE where lat=%s and lng=%s', (lat, lng))
 			conn.commit() 		
