@@ -55,7 +55,7 @@ LIMIT = 500
 KEY_ARRAY_INDEX = 0
 AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
 
-# Define the radius (in meters) for the api search (Don't aply when ranking by distance)
+# Define the radius (in meters) for the api search (Don't apply when ranking by distance)
 RADIUS = 500
 
 # Define the type of places separated by |
