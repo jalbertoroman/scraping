@@ -20,16 +20,16 @@ from pytz import timezone
 from datetime import datetime
 from dateutil import tz
 from datetime import timedelta
-from bs4 import BeautifulSoup
+from lxml import html
 
 
 
 # Set the Places API key for your application
 KEY_ARRAY = ['AIzaSyD4dui7FVSpUwpnrTrMN6NVXoT-C3lYTuI','AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo', 'AIzaSyBXunz47Yja0aLmUGAu3vk0xqZG9WmQ3y4',
-             'AIzaSyDLtz4_hWO-iGpy5RT8SxZi-YcZTZYTVXY', 'AIzaSyBAsRqfCX7h7YXyUSdw61Z3LTHc-KT1EZY', 'AIzaSyAiFpFd85eMtfbvmVNEYuNds5TEF9FjIPI',
-             'AIzaSyCS2F_UYmpRzCRhHv4aT7pBdaWRqvA42U8', 'AIzaSyCDVMO3-PEsnU22lgvjp0ltnqMwW4R8TE4', 'AIzaSyAi-0KQ7UfzdbVefQ-v5CVbfyCif25Pq-U',
+             'AIzaSyDJhi_xxxGi40Nnzyr6Ecy6F_PeWVGumMs','AIzaSyBAsRqfCX7h7YXyUSdw61Z3LTHc-KT1EZY', 
+             'AIzaSyCDVMO3-PEsnU22lgvjp0ltnqMwW4R8TE4', 'AIzaSyAi-0KQ7UfzdbVefQ-v5CVbfyCif25Pq-U',
              'AIzaSyCt2nJvUU0YDNK24Bg9rNFH0HxW7C2I0bo', 'AIzaSyDdxVDEz0tAVh6199Rz-fjZnp4h2Sf-rIo', 'AIzaSyDva2nYRJnjiQ-BW-I67_5m7GxA_19gA7Y',
-             'AIzaSyBFD-5MKrHvcu2vtCI630fhGWpzBPEZqdk', 'AIzaSyDSnWK7NpyWvXoOsF22VZEXWPihK2Jp4Mg', 'AIzaSyCvfId0lM9v_F2igUi4AIRbFJHr8IlMFAY',
+             'AIzaSyBFD-5MKrHvcu2vtCI630fhGWpzBPEZqdk', 'AIzaSyCvfId0lM9v_F2igUi4AIRbFJHr8IlMFAY',
              'AIzaSyAwwAQHYJ29SkL3Ipi9JO-15mR5OXNIUl0', 'AIzaSyAZVLuVEQ8VfkBfHgpME9RGkvwyzJYXfGo', 'AIzaSyCtc-W3m2xFf_j9Qi4Axvfqe2lonkR2Uy8']
 # More keys:  
 # AIzaSyDLtz4_hWO-iGpy5RT8SxZi-YcZTZYTVXY
@@ -174,6 +174,7 @@ def get_chain_places(chain_name, pagetoken=False, location=False, polygon_id=-1)
     elif status == 'REQUEST_DENIED':
         # deny conection, usually sensor information
         log('%s: %s \n' % ('REQUEST_DENIED', response.url), log_dict, 'error_logger','critical')
+        return status
         
     elif status == 'INVALID_REQUEST':
         # deny conection, usually sensor information or not enought time to process pagetoke
@@ -278,9 +279,12 @@ def get_chain_details(reference, polygon_id,chain_name):
                 log(idp, log_dict, 'places_logger','debug')
                 cur.execute('INSERT INTO chain (id, place_polygon_id, name, lat, lng, address, rating, reference, website, url_g, phone, geom,chain_name) VALUES ( %s, %s, %s, %s, %s, %s, %s, %s ,%s ,%s, %s, (SELECT ST_SetSRID(ST_MakePoint(%s,%s),4326)),%s)', (idp, polygon_id, name, lat, lng, address, rating, reference, website, url_g , phone,lng,lat,chain_name,))
                 conn.commit()
-        
+        except:
+            log("UPSERT FAIL!", log_dict, 'error_logger','critical')
+            log(exists, log_dict, 'error_logger','critical')
+            log("idp = %s" % idp, log_dict, 'error_logger','critical')
             
-        
+        else:    
             #Delete relation place - type
             cur.execute('DELETE from chain_type where chain_id=%s', (idp,))
             conn.commit()    
@@ -294,10 +298,7 @@ def get_chain_details(reference, polygon_id,chain_name):
             # Insert API Types
             for type in place['types']:
                 insert_chain_type(type, 'API', idp)
-        except:
-            log("UPSERT FAIL!", log_dict, 'error_logger','critical')
-            log(exists, log_dict, 'error_logger','critical')
-            log("idp = %s" % idp, log_dict, 'error_logger','critical')
+        
 
 
     elif status == 'ZERO_RESULTS':
@@ -314,6 +315,7 @@ def get_chain_details(reference, polygon_id,chain_name):
     elif status == 'REQUEST_DENIED':
         # deny conection, usually sensor information
         log('%s: %s \n' % ('REQUEST_DENIED', response.url), log_dict, 'error_logger','critical')
+        return status
         
     elif status == 'INVALID_REQUEST':
         # mising reference
@@ -332,10 +334,11 @@ def get_chain_types(url_g, chain_id):
         
         data = r.text
     
-        soup = BeautifulSoup(data)
+        soup = html.fromstring(data)
         
         # Skip first element
-        for tag in soup.find_all('span', class_='d-s JPa Jhb')[1:]:
+        tags = soup.xpath('//span[@class="d-s JPa Jhb"]')
+        for tag in tags[1:]:
             str = tag.get('data-payload')
             str = str.lower()
             str = str.replace(" ", "_")
@@ -351,7 +354,7 @@ def get_chain_types(url_g, chain_id):
         r = requests.get(url_g)
         data = r.text
         
-        insertType('MGPT','GP', chain_id)
+        insert_chain_type('MGPT','GP', chain_id)
         log('%s: %s \n %s \n' % (chain_id, url_g, e), log_dict, 'error_logger','critical')
     
     
@@ -388,8 +391,9 @@ def insert_chain_type(type, origin, chain_id):
 
 
 
-places_log_file = open_log("placesLogger", "logs/places_%s.log" % os.getpid(), "DEBUG")
-error_log_file = open_log("errorLogger", "logs/errors_%s.log" % os.getpid(), "DEBUG")
+places_log_file = open_log("placesLogger", "/home/alberto/scraping/places/logs/places_%s.log" % os.getpid(), "DEBUG")
+error_log_file = open_log("errorLogger", "/home/alberto/scraping/places/logs/errors_%s.log" % os.getpid(), "DEBUG")
+crit_error_log_file = open_log("criterrorLogger", "/home/alberto/scraping/places/logs/crit_errors_%s.log" % os.getpid(), "DEBUG")
 log_dict = {
     'places_logger' : {
         'debug' : places_log_file.debug,
@@ -398,6 +402,9 @@ log_dict = {
     },
     'error_logger' : {
         'critical' : error_log_file.critical 
+    },
+    'crit_error_logger': {
+        'critical' : crit_error_log_file.critical 
     }
 }
 
@@ -413,13 +420,11 @@ except:
     
 cur = conn.cursor()
 
-chain_names_file =  open('chainnames.csv')
+chain_names_file =  open('/home/alberto/scraping/places/chainnames.csv')
 chain_names_reader = csv.reader(chain_names_file)
 chain_names = []
 for chain in chain_names_reader:
     chain_names.append(chain[0])
-
-chain_names = list(set(chain_names))
 
 while not done:
     # cur.execute('SELECT lat, lng FROM point where scraped = FALSE and (polygon_id=92 or polygon_id=80 or polygon_id=100 or polygon_id=120)')
@@ -443,29 +448,37 @@ while not done:
         log(location, log_dict, 'places_logger','debug')
         log(chain_names, log_dict, 'places_logger','debug')
         for chain in chain_names:
-#             try:
-            log(chain, log_dict, 'places_logger','debug')
-            res = get_chain_places(chain,False, location, polygon_id)
-            if res == 'OVER_QUERY_LIMIT':
-                # Change api_key or stop
-                if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:
-                    today = datetime.now(timezone('America/Los_Angeles'))
-                    start = datetime(today.year, today.month, today.day, tzinfo=tz.tzutc())
-                    end = start + timedelta(1)
-                    resto = int(end.strftime('%s')) - int(today.strftime('%s')) + 60 # seconds more
-                    time.sleep(resto)
-                    log('OVER_QUERY_LIMIT', log_dict, 'error_logger','critical')
-                else:
-                    KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
-                    AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
-                    get_chain_places(chain,False, location, polygon_id)
-        cur.execute('BEGIN')
-        cur.execute('UPDATE chain_point SET scraped = TRUE where lat=%s and lng=%s', (lat, lng))
-        conn.commit()
-#             except exception as e:
-#                 log('something failed!', log_dict, 'error_logger','critical')
-#                 log(e, log_dict, 'error_logger','critical')
-#                 pass       
+            try:
+                log(chain, log_dict, 'places_logger','debug')
+                res = get_chain_places(chain,False, location, polygon_id)
+                while res == 'OVER_QUERY_LIMIT' or res == 'REQUEST_DENIED':
+                    # Change api_key or stop
+                    if KEY_ARRAY_INDEX == 0:
+                        today = datetime.now(timezone('America/Los_Angeles'))
+                        start = datetime(today.year, today.month, today.day, tzinfo=tz.tzutc())
+                        end = start + timedelta(1)
+                        resto = int(end.strftime('%s')) - int(today.strftime('%s')) + 60 # seconds more
+                    if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:             
+                        log('OVER_QUERY_LIMIT and last key!', log_dict, 'error_logger','critical')
+                        log('Key Index: %s' % KEY_ARRAY_INDEX, log_dict, 'error_logger','critical')
+                        log('Will wait for %s' % resto, log_dict, 'error_logger','critical')
+                        exit()       
+#                         time.sleep(resto)
+#                         KEY_ARRAY_INDEX = 0                    
+#                         AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
+#                         res = get_chain_places(chain,False, location, polygon_id)
+                    else:
+                        KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
+                        AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
+                        res = get_chain_places(chain,False, location, polygon_id)
+                
+                cur.execute('BEGIN')
+                cur.execute('UPDATE chain_point SET scraped = TRUE where lat=%s and lng=%s', (lat, lng))
+                conn.commit()
+            except Exception as e:
+                log('something failed!', log_dict, 'crit_error_logger','critical')
+                log(e, log_dict, 'crit_error_logger','critical')
+                pass       
             
 if conn:
     conn.close()

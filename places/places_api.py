@@ -7,7 +7,7 @@ Created on Nov 21, 2013
 '''
 
 # Import the relevant libraries
-import sys,os,logging
+import sys,os,logging,csv
 import psycopg2
 import urllib2
 import requests
@@ -56,7 +56,7 @@ KEY_ARRAY_INDEX = 0
 AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
 
 # Define the radius (in meters) for the api search (Don't apply when ranking by distance)
-RADIUS = 500
+RADIUS = 10000
 
 # Define the type of places separated by |
 TYPE = 'establishment'
@@ -190,6 +190,109 @@ def getPlaces(pagetoken=False, location=False, polygon_id=-1):
         getPlaces(next_page_token, location, polygon_id)
     
             
+def get_chain_places(chain_name, pagetoken=False, location=False, polygon_id=-1):
+    
+    # Get time
+    gPstart = datetime.now()
+                
+    # Compose a URL to query a location 
+    if not pagetoken:
+        if SEARCH == 'distance':
+            # Search with "rank by distance"
+            url = ('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%s&rankby=distance&types=%s&language=%s&sensor=false&name=%s&key=%s') % (location, TYPE, LANGUAGE, chain_name, AUTH_KEY )
+#             print '%s\n' % (url)
+        elif SEARCH == 'prominence':
+            # Search with "prominece with radius"
+            url = ('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%s&radius=%s&types=%s&language=%s&sensor=false&name=%s&key=%s') % (location, RADIUS, TYPE, LANGUAGE, chain_name, AUTH_KEY)
+#             print '%s\n' % (url)
+        else:
+            # Search with "radarsearch"
+            url = ('https://maps.googleapis.com/maps/api/place/radarsearch/json?location=%s&radius=%s&types=%s&language=%s&sensor=false&name=%s&key=%s') % (location, RADIUS, TYPE, LANGUAGE, chain_name, AUTH_KEY)
+#             print '%s\n' % (url)
+    else:
+        if SEARCH == 'distance':
+            # Search with "rank by distance"
+            url = ('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%s&rankby=distance&types=%s&language=%s&pagetoken=%s&sensor=false&name=%s&key=%s') % (location, TYPE, LANGUAGE, pagetoken, chain_name, AUTH_KEY)
+#             print '%s\n' % (url)
+        elif SEARCH == 'prominence':
+            # Search with "prominece with radius"
+            url = ('https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=%s&radius=%s&types=%s&language=%s&pagetoken=%s&sensor=false&name=%s&key=%s') % (location, RADIUS, TYPE, LANGUAGE, pagetoken, chain_name, AUTH_KEY)
+
+
+    # Send the GET request to the Place details service (using url from above)    
+    request = urllib2.Request(url)
+    request.add_header('User-agent', 'Mozilla/5.0 (Linux i686)')
+    try:
+        response = urllib2.urlopen(request)
+    except Exception as e:
+        log('ERROR GETTING PAGE!', log_dict, 'error_logger','critical')
+        log(e, log_dict, 'error_logger','critical')
+        return 500
+    
+    # Get the response and use the JSON library to decode the JSON
+    json_raw = response.read()
+    json_data = json.loads(json_raw)
+    response.close()
+        
+#     # Conection to DB
+#     try:
+#         conn = psycopg2.connect('host=localhost dbname=google_places user=postgres password=admin')
+#     except:
+#         log('Connection Failed', log_dict, 'error_logger','critical')
+    
+#     cur = conn.cursor()
+    
+    # Iterate through the results and insert into the DB
+    status = json_data['status']
+    if status == 'OK':
+        for place in json_data['results']:
+            log(place, log_dict, 'places_logger','debug')
+            idp = place['id'].encode("utf-8")
+            reference = place['reference'].encode("utf-8")
+            
+#             cur.execute('SELECT 1 FROM place WHERE id=%s', [idp])
+#             conn.commit()    
+            if 'reference' in place:# and cur.rowcount == 0:
+                status_details = getDetails(reference, polygon_id)    
+                
+                if status_details == 'OVER_QUERY_LIMIT':
+                    return status_details        
+        
+    #     print '%s: %s, %s\n' % (idp, lat , reference)
+    elif status == 'ZERO_RESULTS':
+        # No results
+        log('%s: %s \n' % ('ZERO_RESULTS', url), log_dict, 'error_logger','critical')
+        
+    elif status == 'OVER_QUERY_LIMIT':
+        # change api_key or stop
+        log('%s: %s \n' % ('OVER_QUERY_LIMIT', url), log_dict, 'error_logger','critical')
+        return status
+        
+    elif status == 'REQUEST_DENIED':
+        # deny conection, usually sensor information
+        log('%s: %s \n' % ('REQUEST_DENIED', url), log_dict, 'error_logger','critical')
+        
+    elif status == 'INVALID_REQUEST':
+        # deny conection, usually sensor information or not enought time to process pagetoke
+        log('%s: %s \n' % ('INVALID_REQUEST Places', url), log_dict, 'error_logger','critical')
+            
+    else:
+        log('%s: %s \n' % ('We Fucked up something!', url), log_dict, 'error_logger','critical')
+
+    
+#     if conn:
+#         conn.close()
+    
+    if 'next_page_token' in json_data:
+        next_page_token = json_data['next_page_token']
+        gPnow = datetime.now()
+        gPresto = int(gPnow.strftime('%s')) - int(gPstart.strftime('%s')) # seconds more
+#         print gPresto
+        if gPresto < 2:
+            time.sleep( 2 )
+        getPlaces(next_page_token, location, polygon_id)
+                        
+                        
 def getDetails(reference, polygon_id):
     # Compose a URL to query place details
     url = ('https://maps.googleapis.com/maps/api/place/details/json?reference=%s&laguage=%s&sensor=false&key=%s') % (reference, LANGUAGE, AUTH_KEY)
@@ -401,6 +504,9 @@ except:
     
 cur = conn.cursor()
 
+chain_names_file =  open('chainnames.csv')
+chain_names = csv.reader(chain_names_file)
+
 while not done:
     # cur.execute('SELECT lat, lng FROM point where scraped = FALSE and (polygon_id=92 or polygon_id=80 or polygon_id=100 or polygon_id=120)')
     cur.execute('BEGIN')
@@ -414,36 +520,38 @@ while not done:
         break
     cur.execute('UPDATE point SET idx = TRUE WHERE ST_ASTEXT(geom) in (SELECT ST_ASTEXT(geom) FROM point where idx = FALSE order by polygon_id LIMIT %s)', [LIMIT])
     conn.commit()    
+    
     for point in points:
         lat = point[1]
         lng = point[0]
         polygon_id = point[2]
         location = '%s,%s' % (lat, lng)
         log(location, log_dict, 'places_logger','debug')
-        try:
-            res = getPlaces(False, location, polygon_id)
-            if res == 'OVER_QUERY_LIMIT':
-                # Change api_key or stop
-                if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:
-                    today = datetime.now(timezone('America/Los_Angeles'))
-                    start = datetime(today.year, today.month, today.day, tzinfo=tz.tzutc())
-                    end = start + timedelta(1)
-                    resto = int(end.strftime('%s')) - int(today.strftime('%s')) + 60 # seconds more
-                    time.sleep(resto)
-                    log('OVER_QUERY_LIMIT', log_dict, 'error_logger','critical')
+        for chain in chain_names:
+            try:
+                res = get_chain_places(chain,False, location, polygon_id)
+                if res == 'OVER_QUERY_LIMIT':
+                    # Change api_key or stop
+                    if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:
+                        today = datetime.now(timezone('America/Los_Angeles'))
+                        start = datetime(today.year, today.month, today.day, tzinfo=tz.tzutc())
+                        end = start + timedelta(1)
+                        resto = int(end.strftime('%s')) - int(today.strftime('%s')) + 60 # seconds more
+                        time.sleep(resto)
+                        log('OVER_QUERY_LIMIT', log_dict, 'error_logger','critical')
+                    else:
+                        KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
+                        AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
+                        getPlaces(False, location, polygon_id)
+                elif res == 500:
+                    continue
                 else:
-                    KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
-                    AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
-                    getPlaces(False, location, polygon_id)
-            elif res == 500:
-                continue
-            else:
-                cur.execute('UPDATE point SET scraped = TRUE where lat=%s and lng=%s', (lat, lng))
-                conn.commit()
-        except Exception as e:
-            log('Something failed!', log_dict, 'error_logger','critical')
-            log(e, log_dict, 'error_logger','critical')
-            pass       
+                    cur.execute('UPDATE point SET scraped = TRUE where lat=%s and lng=%s', (lat, lng))
+                    conn.commit()
+            except Exception as e:
+                log('Something failed!', log_dict, 'error_logger','critical')
+                log(e, log_dict, 'error_logger','critical')
+                pass       
             
 if conn:
     conn.close()

@@ -13,8 +13,8 @@ import sys
 
 # CC Spain urban areas
 # UA urban areas of the world
-# P San francisco
-POLYGON_TYPE = 'S'
+# P USA + Gipuzkoa
+POLYGON_TYPE = 'P'
 
 
 #Conection to DB
@@ -27,21 +27,21 @@ cur = conn.cursor()
 
 #cur.execute("Select id, name from polygon where type=%s order by (ST_Area(polygon)*POWER(0.3048,2)) desc", [POLYGON_TYPE])
 # USA
-cur.execute("select id,name from polygon where id=13443")
-# cur.execute("Select id, name from polygon where type=%s ", [POLYGON_TYPE])
+cur.execute("select id,name from polygon where type='R'")
+# cur.execute("Select id, name from polygon where type=%s and id!=40", (POLYGON_TYPE,))
 #id=4 is las vegas
 # cur.execute("SELECT id, name FROM polygon WHERE ID=4", )
 for polygon in cur.fetchall():
 # 	print polygon
 	#Delete the old points
-	cur.execute('DELETE FROM point WHERE polygon_id=%s', [polygon[0]])
+	cur.execute('DELETE FROM chain_point WHERE polygon_id=%s', [polygon[0]])
 	conn.commit()
 	# 0.00225degrees ~ 250 meters buffer the area to get border points	
 	#cur.execute("Select ST_Buffer(polygon,0.00225) from polygon where id=%s", [polygon[0]])
 	cur.execute("Select polygon from polygon where id=%s", [polygon[0]])
 	area = cur.fetchall()
 	#Make grid each 707 meters: hexagon -> l= sqr(2)* r
-	cur.execute("SELECT makegrid(%s, 70711, 4326) from polygon", area)
+	cur.execute("SELECT makegrid(%s, 14142, 4326) from polygon", area)
 	grid = cur.fetchall()
 # 	cur.execute('UPDATE grid SET id=%s, name=%s, geom=%s, type=%s WHERE id=%s', (polygon[0], polygon[1], grid[0], POLYGON_TYPE, polygon[0]))
 # 	
@@ -57,7 +57,7 @@ for polygon in cur.fetchall():
 		lat = item[1]
 		lng = item[0]
 		
-		cur.execute("Insert into point (polygon_id, lat, lng, geom) VALUES (%s, %s, %s, ST_SetSRID(ST_MakePoint(%s,%s),4326))", (polygon[0], lat, lng, lng, lat))
+		cur.execute("Insert into chain_point (polygon_id, lat, lng, geom) VALUES (%s, %s, %s, ST_SetSRID(ST_MakePoint(%s,%s),4326))", (polygon[0], lat, lng, lng, lat))
 		conn.commit()
 		i += 1
 		
