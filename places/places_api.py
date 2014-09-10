@@ -49,7 +49,7 @@ KEY_ARRAY = ['AIzaSyD4dui7FVSpUwpnrTrMN6NVXoT-C3lYTuI','AIzaSyCXOCzjUG83ysKqf4oE
 # AIzaSyCtc-W3m2xFf_j9Qi4Axvfqe2lonkR2Uy8
 
 #Define number of point per request
-LIMIT = 500
+LIMIT = 20
 
 # Define api_key array index
 KEY_ARRAY_INDEX = 0
@@ -310,7 +310,7 @@ def getDetails(reference, polygon_id):
         
     # Conection to DB
     try:
-        conn = psycopg2.connect('host=localhost dbname=google_places user=postgres password=admin')
+        conn = psycopg2.connect('host=54.217.205.13 dbname=mapplas_postgis user=postgres password=Y0tsuba!')
     except:
         log('Connection Failed', log_dict, 'error_logger','critical')
         
@@ -355,40 +355,40 @@ def getDetails(reference, polygon_id):
         else:
             url_g = ''
 
-        try:
-            cur.execute("BEGIN")
-            cur.execute("SELECT id from place where id=%s for update", (idp,))
-            exists = cur.fetchone()
-            if exists is not None:
-                log("UPDATING", log_dict, 'places_logger','debug')
-                log(idp, log_dict, 'places_logger','debug')
-                cur.execute('UPDATE place SET id=%s, name=%s, lat=%s, lng=%s, address=%s, rating=%s, reference=%s, website=%s, url_g=%s, phone=%s, place_polygon_id=%s WHERE id=%s', (idp, name, lat, lng, address, rating, reference, website, url_g , phone, polygon_id, idp))
-                conn.commit()
-            else:
-                log("INSERTING", log_dict, 'places_logger','debug')
-                log(idp, log_dict, 'places_logger','debug')
-                cur.execute('INSERT INTO place (id, place_polygon_id, name, lat, lng, address, rating, reference, website, url_g, phone) VALUES ( %s, %s, %s, %s, %s, %s, %s, %s ,%s ,%s, %s)', (idp, polygon_id, name, lat, lng, address, rating, reference, website, url_g , phone))
-                conn.commit()
+#         try:
+        cur.execute("BEGIN")
+        cur.execute("SELECT id from place where id=%s for update", (idp,))
+        exists = cur.fetchone()
+        if exists is not None:
+            log("UPDATING", log_dict, 'places_logger','debug')
+            log(idp, log_dict, 'places_logger','debug')
+            cur.execute('UPDATE place SET id=%s, name=%s, lat=%s, lng=%s, address=%s, rating=%s, reference=%s, website=%s, url_g=%s, phone=%s, place_polygon_id=%s WHERE id=%s', (idp, name, lat, lng, address, rating, reference, website, url_g , phone, polygon_id, idp))
+            conn.commit()
+        else:
+            log("INSERTING", log_dict, 'places_logger','debug')
+            log(idp, log_dict, 'places_logger','debug')
+            cur.execute('INSERT INTO place (id, place_polygon_id, name, lat, lng, address, rating, reference, website, url_g, phone) VALUES ( %s, %s, %s, %s, %s, %s, %s, %s ,%s ,%s, %s)', (idp, polygon_id, name, lat, lng, address, rating, reference, website, url_g , phone))
+            conn.commit()
+    
         
-            
-        
-            #Delete relation place - type
-            cur.execute('DELETE from place_type where place_id=%s', (idp,))
-            conn.commit()    
-              
-            # Insert Google plus types
-            if url_g.find('plus.google.com') != -1:
-                getTypes(url_g, idp)
-            else: 
-                log(url_g, log_dict, 'error_logger','critical')
-              
-            # Insert API Types
-            for type in place['types']:
-                insertType(type, 'API', idp)
-        except:
-            log("UPSERT FAIL!", log_dict, 'error_logger','critical')
-            log(exists, log_dict, 'error_logger','critical')
-            log("idp = %s" % idp, log_dict, 'error_logger','critical')
+    
+        #Delete relation place - type
+        cur.execute('DELETE from place_type where place_id=%s', (idp,))
+        conn.commit()    
+          
+        # Insert Google plus types
+        if url_g.find('plus.google.com') != -1:
+            getTypes(url_g, idp)
+        else: 
+            log(url_g, log_dict, 'error_logger','critical')
+          
+        # Insert API Types
+        for type in place['types']:
+            insertType(type, 'API', idp)
+#         except:
+#             log("UPSERT FAIL!", log_dict, 'error_logger','critical')
+#             log(exists, log_dict, 'error_logger','critical')
+#             log("idp = %s" % idp, log_dict, 'error_logger','critical')
 
 
     elif status == 'ZERO_RESULTS':
@@ -451,7 +451,7 @@ def insertType(type, origin, place_id):
 	
 	# Conection to DB
 	try:
-		conn = psycopg2.connect('host=localhost dbname=google_places user=postgres password=admin')
+		conn = psycopg2.connect('host=54.217.205.13 dbname=mapplas_postgis user=postgres password=Y0tsuba!')
 	except:
 		log('Connection Failed', log_dict, 'error_logger','critical')
 	
@@ -498,17 +498,12 @@ done = False
 
 # Conection to DB
 try:
-    conn = psycopg2.connect('host=localhost dbname=google_places user=postgres password=admin')
+    conn = psycopg2.connect('host=54.217.205.13 dbname=mapplas_postgis user=postgres password=Y0tsuba!')
 except:
     log('Connection Failed', log_dict, 'error_logger','critical')
-    
 cur = conn.cursor()
-
-chain_names_file =  open('chainnames.csv')
-chain_names = csv.reader(chain_names_file)
-
 while not done:
-    # cur.execute('SELECT lat, lng FROM point where scraped = FALSE and (polygon_id=92 or polygon_id=80 or polygon_id=100 or polygon_id=120)')
+# cur.execute('SELECT lat, lng FROM point where scraped = FALSE and (polygon_id=92 or polygon_id=80 or polygon_id=100 or polygon_id=120)')
     cur.execute('BEGIN')
     cur.execute('SELECT ST_X(geom) as x, ST_Y(geom) as y, polygon_id,geom FROM point where idx = FALSE order by polygon_id LIMIT %s for update', (LIMIT,))
     points = cur.fetchall()
@@ -519,39 +514,36 @@ while not done:
         log('Done', log_dict, 'places_logger','info')
         break
     cur.execute('UPDATE point SET idx = TRUE WHERE ST_ASTEXT(geom) in (SELECT ST_ASTEXT(geom) FROM point where idx = FALSE order by polygon_id LIMIT %s)', [LIMIT])
-    conn.commit()    
-    
+    conn.commit()
     for point in points:
         lat = point[1]
         lng = point[0]
         polygon_id = point[2]
         location = '%s,%s' % (lat, lng)
         log(location, log_dict, 'places_logger','debug')
-        for chain in chain_names:
-            try:
-                res = get_chain_places(chain,False, location, polygon_id)
-                if res == 'OVER_QUERY_LIMIT':
-                    # Change api_key or stop
-                    if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:
-                        today = datetime.now(timezone('America/Los_Angeles'))
-                        start = datetime(today.year, today.month, today.day, tzinfo=tz.tzutc())
-                        end = start + timedelta(1)
-                        resto = int(end.strftime('%s')) - int(today.strftime('%s')) + 60 # seconds more
-                        time.sleep(resto)
-                        log('OVER_QUERY_LIMIT', log_dict, 'error_logger','critical')
-                    else:
-                        KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
-                        AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
-                        getPlaces(False, location, polygon_id)
-                elif res == 500:
-                    continue
-                else:
-                    cur.execute('UPDATE point SET scraped = TRUE where lat=%s and lng=%s', (lat, lng))
-                    conn.commit()
-            except Exception as e:
-                log('Something failed!', log_dict, 'error_logger','critical')
-                log(e, log_dict, 'error_logger','critical')
-                pass       
-            
+#         try:
+        res = getPlaces(False, location, polygon_id)
+        if res == 'OVER_QUERY_LIMIT':
+            # Change api_key or stop
+            if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:
+                today = datetime.now(timezone('America/Los_Angeles'))
+                start = datetime(today.year, today.month, today.day, tzinfo=tz.tzutc())
+                end = start + timedelta(1)
+                resto = int(end.strftime('%s')) - int(today.strftime('%s')) + 60 # seconds more
+                time.sleep(resto)
+                log('OVER_QUERY_LIMIT', log_dict, 'error_logger','critical')
+            else:
+                KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
+                AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
+                getPlaces(False, location, polygon_id)
+        elif res == 500:
+            continue
+        else:
+            cur.execute('UPDATE point SET scraped = TRUE where lat=%s and lng=%s', (lat, lng))
+            conn.commit()
+#         except Exception as e:
+#             log('Something failed!', log_dict, 'error_logger','critical')
+#             log(e, log_dict, 'error_logger','critical')
+#             pass
 if conn:
     conn.close()

@@ -220,7 +220,7 @@ def get_chain_details(reference, polygon_id,chain_name):
         
     # Conection to DB
     try:
-        conn = psycopg2.connect('host=localhost dbname=google_places user=postgres password=admin')
+        conn = psycopg2.connect('host=54.217.205.13 dbname=mapplas_postgis user=postgres password=Y0tsuba!')
     except:
         log('Connection Failed', log_dict, 'error_logger','critical')
         
@@ -363,7 +363,7 @@ def insert_chain_type(type, origin, chain_id):
     
     # Conection to DB
     try:
-        conn = psycopg2.connect('host=localhost dbname=google_places user=postgres password=admin')
+        conn = psycopg2.connect('host=54.217.205.13 dbname=mapplas_postgis user=postgres password=Y0tsuba!')
     except:
         log('Connection Failed', log_dict, 'error_logger','critical')
     
@@ -391,9 +391,9 @@ def insert_chain_type(type, origin, chain_id):
 
 
 
-places_log_file = open_log("placesLogger", "/home/alberto/scraping/places/logs/places_%s.log" % os.getpid(), "DEBUG")
-error_log_file = open_log("errorLogger", "/home/alberto/scraping/places/logs/errors_%s.log" % os.getpid(), "DEBUG")
-crit_error_log_file = open_log("criterrorLogger", "/home/alberto/scraping/places/logs/crit_errors_%s.log" % os.getpid(), "DEBUG")
+places_log_file = open_log("placesLogger", "/home/ubuntu/scraping/places/logs/places_%s.log" % os.getpid(), "DEBUG")
+error_log_file = open_log("errorLogger", "/home/ubuntu/scraping/places/logs/errors_%s.log" % os.getpid(), "DEBUG")
+crit_error_log_file = open_log("criterrorLogger", "/home/ubuntu/scraping/places/logs/crit_errors_%s.log" % os.getpid(), "DEBUG")
 log_dict = {
     'places_logger' : {
         'debug' : places_log_file.debug,
@@ -414,13 +414,13 @@ done = False
 
 # Conection to DB
 try:
-    conn = psycopg2.connect('host=localhost dbname=google_places user=postgres password=admin')
+    conn = psycopg2.connect('host=54.217.205.13 dbname=mapplas_postgis user=postgres password=Y0tsuba!')
 except:
     log('Connection Failed', log_dict, 'error_logger','critical')
     
 cur = conn.cursor()
 
-chain_names_file =  open('/home/alberto/scraping/places/chainnames.csv')
+chain_names_file =  open('/home/ubuntu/scraping/places/chainnames.csv')
 chain_names_reader = csv.reader(chain_names_file)
 chain_names = []
 for chain in chain_names_reader:
