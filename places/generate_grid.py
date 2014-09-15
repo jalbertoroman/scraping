@@ -42,7 +42,7 @@ for polygon in cur.fetchall():
 	cur.execute("Select mpoly from entity_extractor_entities where id=%s", [polygon[0]])
 	area = cur.fetchall()
 	#Make grid each 707 meters: hexagon -> l= sqr(2)* r
-	cur.execute("SELECT makegrid(%s, 70711, 4326) from entity_extractor_entities", area)
+	cur.execute("SELECT makegrid(%s, 707, 4326) from entity_extractor_entities", area)
 	grid = cur.fetchall()
 # 	cur.execute('UPDATE grid SET id=%s, name=%s, geom=%s, type=%s WHERE id=%s', (polygon[0], polygon[1], grid[0], POLYGON_TYPE, polygon[0]))
 # 	

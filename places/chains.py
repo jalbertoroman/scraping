@@ -369,10 +369,10 @@ def insert_chain_type(type, origin, chain_id):
     
     cur = conn.cursor()
     
-    cur.execute('INSERT INTO type (name_en, origin) SELECT %s, %s WHERE NOT EXISTS (SELECT 1 FROM type WHERE name_en=%s)', (type, origin, type))
+    cur.execute('INSERT INTO qrrrify_type (name_en, origin) SELECT %s, %s WHERE NOT EXISTS (SELECT 1 FROM type WHERE name_en=%s)', (type, origin, type))
     conn.commit()
     
-    cur.execute('SELECT id FROM type where name_en=%s ', [type])
+    cur.execute('SELECT id FROM qrrrify_type where name_en=%s ', [type])
     type_id = cur.fetchall()    
     conn.commit()
     

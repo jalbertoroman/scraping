@@ -49,14 +49,14 @@ KEY_ARRAY = ['AIzaSyD4dui7FVSpUwpnrTrMN6NVXoT-C3lYTuI','AIzaSyCXOCzjUG83ysKqf4oE
 # AIzaSyCtc-W3m2xFf_j9Qi4Axvfqe2lonkR2Uy8
 
 #Define number of point per request
-LIMIT = 20
+LIMIT = 500
 
 # Define api_key array index
 KEY_ARRAY_INDEX = 0
 AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
 
 # Define the radius (in meters) for the api search (Don't apply when ranking by distance)
-RADIUS = 10000
+RADIUS = 1500
 
 # Define the type of places separated by |
 TYPE = 'establishment'
@@ -65,7 +65,7 @@ TYPE = 'establishment'
 LANGUAGE ='en'
 
 # Define the search: distance, prominence or radarsearch
-SEARCH ='radar'
+SEARCH ='prominence'
 
 '''
 DB LOG OPEN
@@ -142,6 +142,7 @@ def getPlaces(pagetoken=False, location=False, polygon_id=-1):
     # Iterate through the results and insert into the DB
     status = json_data['status']
     if status == 'OK':
+        log(" #### FOUND %s PLACES !! ####" % len(json_data['results']), log_dict, 'places_logger','debug')
         for place in json_data['results']:
             log(place, log_dict, 'places_logger','debug')
             idp = place['id'].encode("utf-8")
@@ -357,23 +358,23 @@ def getDetails(reference, polygon_id):
 
 #         try:
         cur.execute("BEGIN")
-        cur.execute("SELECT id from place where id=%s for update", (idp,))
+        cur.execute("SELECT id from qrrrify_place where id=%s for update", (idp,))
         exists = cur.fetchone()
         if exists is not None:
             log("UPDATING", log_dict, 'places_logger','debug')
             log(idp, log_dict, 'places_logger','debug')
-            cur.execute('UPDATE place SET id=%s, name=%s, lat=%s, lng=%s, address=%s, rating=%s, reference=%s, website=%s, url_g=%s, phone=%s, place_polygon_id=%s WHERE id=%s', (idp, name, lat, lng, address, rating, reference, website, url_g , phone, polygon_id, idp))
+            cur.execute('UPDATE qrrrify_place SET id=%s, name=%s, lat=%s, lng=%s, address=%s, rating=%s, reference=%s, website=%s, url_g=%s, phone=%s, place_polygon_id=%s WHERE id=%s', (idp, name, lat, lng, address, rating, reference, website, url_g , phone, polygon_id, idp))
             conn.commit()
         else:
             log("INSERTING", log_dict, 'places_logger','debug')
             log(idp, log_dict, 'places_logger','debug')
-            cur.execute('INSERT INTO place (id, place_polygon_id, name, lat, lng, address, rating, reference, website, url_g, phone) VALUES ( %s, %s, %s, %s, %s, %s, %s, %s ,%s ,%s, %s)', (idp, polygon_id, name, lat, lng, address, rating, reference, website, url_g , phone))
+            cur.execute('INSERT INTO qrrrify_place (id, place_polygon_id, name, lat, lng, address, rating, reference, website, url_g, phone) VALUES ( %s, %s, %s, %s, %s, %s, %s, %s ,%s ,%s, %s)', (idp, polygon_id, name, lat, lng, address, rating, reference, website, url_g , phone))
             conn.commit()
     
         
     
         #Delete relation place - type
-        cur.execute('DELETE from place_type where place_id=%s', (idp,))
+        cur.execute('DELETE from qrrrify_place_type where place_id=%s', (idp,))
         conn.commit()    
           
         # Insert Google plus types
@@ -457,15 +458,15 @@ def insertType(type, origin, place_id):
 	
 	cur = conn.cursor()
 	
-	cur.execute('INSERT INTO type (name_en, origin) SELECT %s, %s WHERE NOT EXISTS (SELECT 1 FROM type WHERE name_en=%s)', (type, origin, type))
+	cur.execute('INSERT INTO qrrrify_type (name_en, origin) SELECT %s, %s WHERE NOT EXISTS (SELECT 1 FROM type WHERE name_en=%s)', (type, origin, type))
 	conn.commit()
 	
-	cur.execute('SELECT id FROM type where name_en=%s ', [type])
+	cur.execute('SELECT id FROM qrrrify_type where name_en=%s ', [type])
 	type_id = cur.fetchall()	
 	conn.commit()
 	
 	try:
-		cur.execute('INSERT INTO place_type (place_id, type_id) SELECT %s, %s WHERE NOT EXISTS (SELECT 1 FROM place_type WHERE (place_id=%s AND type_id=%s))', (place_id, type_id[0], place_id, type_id[0]))
+		cur.execute('INSERT INTO qrrrify_place_type (place_id, type_id) SELECT %s, %s WHERE NOT EXISTS (SELECT 1 FROM place_type WHERE (place_id=%s AND type_id=%s))', (place_id, type_id[0], place_id, type_id[0]))
 	except psycopg2.IntegrityError:
 		conn.rollback()
 	else:
@@ -505,7 +506,7 @@ cur = conn.cursor()
 while not done:
 # cur.execute('SELECT lat, lng FROM point where scraped = FALSE and (polygon_id=92 or polygon_id=80 or polygon_id=100 or polygon_id=120)')
     cur.execute('BEGIN')
-    cur.execute('SELECT ST_X(geom) as x, ST_Y(geom) as y, polygon_id,geom FROM point where idx = FALSE order by polygon_id LIMIT %s for update', (LIMIT,))
+    cur.execute('SELECT ST_X(geom) as x, ST_Y(geom) as y, polygon_id,geom FROM point where idx = FALSE and polygon_id=40 order by polygon_id LIMIT %s for update', (LIMIT,))
     points = cur.fetchall()
     if cur.rowcount < 1:
         done = True
@@ -513,7 +514,7 @@ while not done:
         conn.close()
         log('Done', log_dict, 'places_logger','info')
         break
-    cur.execute('UPDATE point SET idx = TRUE WHERE ST_ASTEXT(geom) in (SELECT ST_ASTEXT(geom) FROM point where idx = FALSE order by polygon_id LIMIT %s)', [LIMIT])
+    cur.execute('UPDATE point SET idx = TRUE WHERE ST_ASTEXT(geom) in (SELECT ST_ASTEXT(geom) FROM point where idx = FALSE and polygon_id=40 order by polygon_id LIMIT %s)', [LIMIT])
     conn.commit()
     for point in points:
         lat = point[1]
@@ -524,18 +525,15 @@ while not done:
 #         try:
         res = getPlaces(False, location, polygon_id)
         if res == 'OVER_QUERY_LIMIT':
-            # Change api_key or stop
-            if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:
-                today = datetime.now(timezone('America/Los_Angeles'))
-                start = datetime(today.year, today.month, today.day, tzinfo=tz.tzutc())
-                end = start + timedelta(1)
-                resto = int(end.strftime('%s')) - int(today.strftime('%s')) + 60 # seconds more
-                time.sleep(resto)
-                log('OVER_QUERY_LIMIT', log_dict, 'error_logger','critical')
+            # Change api_key or stop               
+            if KEY_ARRAY_INDEX == len(KEY_ARRAY) - 1:             
+                log('OVER_QUERY_LIMIT and last key!', log_dict, 'error_logger','critical')
+                log('Key Index: %s' % KEY_ARRAY_INDEX, log_dict, 'error_logger','critical')
+                exit()       
             else:
                 KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
                 AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
-                getPlaces(False, location, polygon_id)
+                res = getPlaces(False, location, polygon_id)
         elif res == 500:
             continue
         else:
