@@ -1,6 +1,0 @@
-2014-09-12 07:02:50,678 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
-2014-09-12 07:02:53,380 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
-2014-09-12 07:02:56,714 - errorLogger - CRITICAL - OVER_QUERY_LIMIT: https://maps.googleapis.com/maps/api/place/details/json?reference=CoQBcQAAAKyAxChRGYrpQcW-jTWGAEcPudsZfXTf8AKgzu6xXqdrwtKnD0Dhb6IaT74a5tXPPUTKcN0j3DqnpCs_cati9wQwiCb7u1Lx3iN73bJ0ESUv7WSSB9q7yND8otDWknrR2Rs2GW2UNktxpQ_6eQXBNI_m5gaZ40kc4JdJIWrmyaxqEhD9vvzlxerfxov4Bn8wF6biGhQ_ALfLW8UyOFOJahbviwF83gYtUg&laguage=en&sensor=false&key=AIzaSyD4dui7FVSpUwpnrTrMN6NVXoT-C3lYTuI 
-
-2014-09-12 07:03:04,117 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
-2014-09-12 07:03:06,055 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
