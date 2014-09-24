@@ -1,0 +1,2790 @@
+2014-09-16 14:55:27,924 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 14:55:27,924 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 14:58:30,978 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 14:58:30,979 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 14:59:06,381 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 14:59:06,381 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 14:59:29,710 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 14:59:29,711 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 14:59:38,376 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 14:59:38,376 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 14:59:44,698 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 14:59:44,699 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 14:59:46,290 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 14:59:46,290 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:00:17,704 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:00:17,704 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:00:26,060 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:00:26,060 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:00:27,288 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:00:27,289 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:00:52,057 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:00:52,057 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:00:55,338 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:00:55,339 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:01:02,697 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:01:02,709 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:01:04,085 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:01:04,086 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:01:11,030 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:01:11,031 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:01:12,853 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:01:12,854 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:01:16,113 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:01:16,114 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:01:16,813 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:01:16,813 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'bar', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:06:31,269 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:06:31,270 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:08:48,214 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:08:48,215 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:08:57,510 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:08:57,510 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:09:05,744 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:09:05,744 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:10:00,099 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:10:00,100 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'bar', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:10:23,566 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:10:23,568 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:13:31,850 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:13:31,850 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:13:46,556 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:13:46,557 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...l_delivery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:13:50,852 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:13:50,853 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:13:52,170 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:13:52,182 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...l_delivery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:13:53,940 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:13:53,941 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:13:57,509 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:13:57,510 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:14:03,724 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:14:03,725 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ence_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:14:05,206 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:14:05,207 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:14:08,330 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:14:08,330 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:14:17,643 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:14:17,644 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:14:18,683 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:14:18,684 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:14:21,501 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:14:21,501 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:14:32,272 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:14:32,273 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...tics_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:15:01,163 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:15:01,163 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:18:06,863 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:18:06,873 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:21:47,824 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:21:47,825 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ir_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:21:49,390 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:21:49,411 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:21:58,719 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:21:58,720 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:21:59,899 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:21:59,899 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:22:01,272 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:22:01,272 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:22:15,579 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:22:15,579 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ss_program', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:27:52,306 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:27:52,307 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:28:28,132 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:28:28,132 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:31:31,679 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:31:31,679 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:32:31,774 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:32:31,774 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:32:39,738 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:32:39,739 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:32:48,833 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:32:48,834 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:33:13,053 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:33:13,063 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:33:21,134 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:33:21,135 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:33:29,356 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:33:29,359 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:37:48,621 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:37:48,622 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ence_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:37:57,879 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:37:57,879 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:38:37,930 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:38:37,931 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:09,666 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:09,668 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...'tire_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:17,750 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:17,751 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:19,533 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:19,533 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:21,461 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:21,462 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ware_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:27,213 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:27,213 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:29,631 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:29,632 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auty_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:31,712 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:31,712 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:33,406 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:33,417 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:40,661 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:40,672 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:41,736 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:41,736 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:43,082 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:43,083 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:40:47,614 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:40:47,614 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...T 'storage', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:43:07,786 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:43:07,787 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'atm', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:43:23,545 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:43:23,546 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:47:59,382 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:47:59,384 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ence_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:49:04,669 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:49:04,672 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:49:14,450 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:49:14,460 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:49:19,357 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:49:19,358 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:49:27,027 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:49:27,027 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'motel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:56:07,584 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:56:07,597 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:05,753 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:05,756 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:19,295 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:19,296 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...brake_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:22,312 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:22,312 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:23,605 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:23,605 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ning_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:26,302 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:26,304 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:27,480 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:27,480 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ount_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:30,869 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:30,869 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:33,423 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:33,424 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:36,907 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:36,907 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:39,689 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:39,703 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:43,666 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:43,675 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:44,558 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:44,559 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:45,792 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:45,793 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:46,508 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:46,509 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...offee_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:49,334 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:49,335 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ock_broker', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:53,982 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:53,983 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:54,975 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:54,980 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:55,745 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:55,746 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:57,103 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:57,116 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 15:58:59,925 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 15:58:59,927 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:00:54,163 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:00:54,164 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:02:00,911 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:02:00,912 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:02:59,420 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:02:59,421 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:04:21,506 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:04:21,507 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:06:59,230 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:06:59,231 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:07:15,242 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:07:15,244 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:07:19,108 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:07:19,108 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:07:24,593 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:07:24,593 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:07:29,802 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:07:29,803 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:07:33,882 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:07:33,883 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...automotive', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:07:43,911 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:07:43,911 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:07:48,483 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:07:48,484 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...m_location', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:07:50,056 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:07:50,057 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...shoe_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:08:23,162 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:08:23,163 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:09:55,572 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:09:55,573 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ence_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:11:16,334 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:11:16,335 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ware_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:11:17,695 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:11:17,696 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ce_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:11:20,581 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:11:20,583 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:11:23,383 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:11:23,384 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:11:26,744 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:11:26,745 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:11:33,939 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:11:33,940 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:11:35,228 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:11:35,229 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:11:37,957 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:11:37,961 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:12:53,019 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:12:53,019 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:14:52,108 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:14:52,111 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:15:52,026 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:15:52,027 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ng_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:15:56,248 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:15:56,248 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ce_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:15:57,838 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:15:57,839 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:16:01,684 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:16:01,685 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:16:03,564 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:16:03,566 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:16:10,794 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:16:10,797 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:16:12,408 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:16:12,421 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:16:14,550 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:16:14,551 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nstruction', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:16:20,124 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:16:20,125 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...m_location', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:19:27,850 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:19:27,850 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:22:51,108 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:22:51,109 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:23,628 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:23,629 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...brake_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:24,572 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:24,573 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:29,292 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:29,292 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:32,201 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:32,201 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:33,747 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:33,748 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:36,129 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:36,129 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:38,724 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:38,725 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:39,735 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:39,737 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:42,317 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:42,319 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:45,059 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:45,060 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...tal_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:47,008 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:47,009 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:48,672 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:48,672 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:49,579 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:49,579 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...offee_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:52,278 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:52,288 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:53,445 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:53,455 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_planner', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:57,649 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:57,649 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:58,700 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:58,719 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:24:59,519 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:24:59,520 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:25:00,417 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:25:00,418 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:25:01,313 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:25:01,314 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:25:02,811 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:25:02,812 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:25:03,574 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:25:03,575 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:25:07,813 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:25:07,813 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:25:09,202 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:25:09,214 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...uter_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:25:14,459 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:25:14,459 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:25:43,293 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:25:43,294 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:27:04,884 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:27:04,885 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:31:41,731 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:31:41,732 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:32:22,899 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:32:22,900 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:34:42,858 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:34:42,859 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...tal_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:34:47,975 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:34:47,976 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ware_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:34:49,421 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:34:49,422 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:34:54,018 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:34:54,019 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...el_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:35:07,885 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:35:07,885 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:35:22,441 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:35:22,442 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'services', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:35:41,811 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:35:41,812 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...tal_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:35:52,287 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:35:52,288 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:13,053 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:13,054 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:13,812 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:13,813 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:19,759 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:19,759 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:21,448 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:21,448 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...a_takeaway', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:24,442 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:24,443 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:29,586 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:29,587 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nd_mailing', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:30,779 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:30,780 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:33,894 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:33,897 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'motel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:35,113 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:35,114 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:38,791 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:38,792 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:39,944 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:39,946 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:42,320 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:42,321 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...epair_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:44,293 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:44,294 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:45,323 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:45,323 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_planner', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:49,768 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:49,784 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:50,651 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:50,654 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:51,584 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:51,584 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:52,581 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:52,581 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:54,283 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:54,293 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nd_mailing', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:56,202 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:56,203 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:56,934 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:56,936 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...upermarket', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:38:59,402 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:38:59,403 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...aintenance', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:39:00,940 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:39:00,947 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:39:03,673 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:39:03,673 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'atm', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:39:08,602 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:39:08,603 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:39:12,033 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:39:12,034 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...y_location', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:41:07,558 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:41:07,559 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:45:32,503 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:45:32,504 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:46:54,914 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:46:54,915 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:51:03,593 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:51:03,594 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:51:34,001 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:51:34,002 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:51:44,337 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:51:44,337 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:52:55,370 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:52:55,371 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:53:05,538 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:53:05,539 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:53:47,915 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:53:47,917 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:54:33,898 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:54:33,915 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:54:54,005 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:54:54,024 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:54:55,998 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:54:55,999 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:54:59,502 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:54:59,503 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:01,314 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:01,315 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:03,256 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:03,257 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ware_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:07,366 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:07,366 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:10,373 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:10,375 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:13,677 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:13,680 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...CT 'bakery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:15,882 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:15,883 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:17,886 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:17,896 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:26,029 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:26,031 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:27,132 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:27,133 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:55:28,537 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:55:28,538 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:56:15,745 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:56:15,745 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:56:36,254 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:56:36,255 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...eral_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:56:45,863 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:56:45,864 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:56:47,743 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:56:47,760 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:57:18,367 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:57:18,368 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auditorium', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:57:58,631 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:57:58,632 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...consultant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:57:59,536 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:57:59,537 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:01,622 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:01,637 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:02,634 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:02,634 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:03,656 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:03,657 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...contractor', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:04,800 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:04,801 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...a_delivery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:05,952 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:05,953 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:07,600 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:07,601 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:09,029 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:09,029 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...iety_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:09,893 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:09,893 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ng_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:11,633 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:11,634 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:13,023 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:13,024 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:15,240 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:15,241 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:15,978 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:15,980 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:16,924 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:16,925 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:18,262 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:18,276 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:19,284 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:19,285 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:20,657 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:20,666 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...oods_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:23,846 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:23,847 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...'logistics', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:25,462 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:25,463 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:28,383 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:28,384 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'motel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:29,865 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:29,865 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:31,343 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:31,343 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...rpet_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:33,188 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:33,189 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...automotive', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:35,583 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:35,584 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:37,024 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:37,024 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:40,418 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:40,420 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...photo_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:41,629 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:41,630 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...consultant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:43,154 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:43,168 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...rift_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:44,677 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:44,678 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:47,083 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:47,092 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...game_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:48,174 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:48,175 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:49,163 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:49,164 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:50,171 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:50,171 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:51,098 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:51,100 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:52,231 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:52,231 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:54,074 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:54,075 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:56,665 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:56,666 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ank_kiosks', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:58:59,226 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:58:59,226 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:00,756 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:00,757 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:01,643 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:01,643 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...hone_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:02,760 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:02,762 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:03,830 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:03,831 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...m_location', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:05,275 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:05,276 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...shoe_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:06,076 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:06,077 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...game_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:09,244 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:09,245 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:10,704 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:10,706 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auty_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 16:59:12,012 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 16:59:12,013 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'gym', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:00:20,728 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:00:20,729 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:01:44,621 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:01:44,621 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:02:44,339 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:02:44,341 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...cery_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:00,972 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:00,973 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:11,577 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:11,578 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:13,474 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:13,475 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:33,923 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:33,924 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:35,934 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:35,934 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:37,661 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:37,682 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:41,371 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:41,381 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...le_company', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:43,907 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:43,907 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ng_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:47,560 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:47,560 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:51,781 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:51,782 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...automotive', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:54,320 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:54,320 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:55,864 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:55,865 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:03:59,502 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:03:59,502 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_planner', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:04:04,342 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:04:04,344 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:04:06,112 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:04:06,112 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:04:13,630 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:04:13,631 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...uter_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:04:51,611 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:04:51,611 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:05:35,994 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:05:35,995 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:05:40,056 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:05:40,056 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ng_company', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:06:19,678 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:06:19,679 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:07:02,847 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:07:02,848 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:07:47,628 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:07:47,629 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:08:28,410 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:08:28,412 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:09:50,562 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:09:50,563 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:11:12,254 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:11:12,269 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:11:34,378 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:11:34,379 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'motel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:11:55,037 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:11:55,040 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:12,543 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:12,545 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...aintenance', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:14,331 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:14,332 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:15,962 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:15,969 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...food_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:17,146 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:17,146 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:18,369 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:18,369 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:20,393 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:20,393 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'motel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:22,561 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:22,562 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:27,590 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:27,590 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:30,431 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:30,432 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:32,189 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:32,190 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:34,351 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:34,352 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:36,060 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:36,060 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:37,440 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:37,440 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_company', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:39,731 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:39,732 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:40,746 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:40,747 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ock_broker', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:45,462 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:45,462 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:46,549 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:46,567 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:47,508 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:47,509 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:48,656 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:48,671 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:12:51,598 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:12:51,599 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:13:00,410 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:13:00,421 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:13:01,570 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:13:01,583 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auty_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:13:26,456 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:13:26,471 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_company', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:13:34,408 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:13:34,408 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:14,285 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:14,285 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:23,821 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:23,837 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:38,177 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:38,191 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:53,514 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:53,515 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'tax', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:54,409 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:54,410 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:55,663 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:55,664 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:57,389 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:57,390 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:58,272 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:58,273 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:15:59,505 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:15:59,519 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...l_delivery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:00,490 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:00,507 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ount_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:01,491 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:01,492 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...'beverages', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:03,165 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:03,166 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:04,846 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:04,846 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...iety_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:05,813 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:05,815 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...a_delivery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:07,764 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:07,765 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:08,933 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:08,933 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...t_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:09,924 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:09,925 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:12,976 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:12,990 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...a_takeaway', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:14,059 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:14,098 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...hone_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:15,477 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:15,479 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ng_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:17,028 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:17,028 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:17,814 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:17,830 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:19,878 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:19,896 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:25,212 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:25,212 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...pply_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:26,559 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:26,560 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:28,402 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:28,403 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...l_refinery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:30,028 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:30,043 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'motel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:31,528 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:31,528 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:33,839 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:33,840 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...automotive', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:36,730 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:36,730 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:38,194 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:38,194 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:40,038 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:40,038 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:41,256 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:41,257 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...offee_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:42,295 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:42,295 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:45,082 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:45,092 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:46,518 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:46,519 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ock_broker', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:48,249 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:48,252 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ganization', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:49,396 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:49,397 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'atm', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:52,145 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:52,146 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...game_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:54,189 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:54,189 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:55,348 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:55,349 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:56,379 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:56,379 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:57,334 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:57,334 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:16:58,805 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:16:58,815 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:00,017 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:00,018 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:01,564 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:01,564 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:02,252 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:02,253 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...uty_salons', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:03,983 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:03,984 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:05,327 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:05,328 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ank_kiosks', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:06,306 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:06,307 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...T 'stables', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:07,625 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:07,638 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...hone_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:09,027 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:09,027 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:10,053 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:10,054 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ng_company', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:10,756 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:10,756 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...'warehouse', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:11,566 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:11,574 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:13,193 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:13,194 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:14,141 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:14,142 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nics_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:15,353 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:15,354 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...llar_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:16,419 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:16,419 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...m_location', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:17,994 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:17,995 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...shoe_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:18,829 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:18,845 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auty_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:19,716 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:19,717 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...game_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:23,020 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:23,021 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:24,092 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:24,092 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auty_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:25,335 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:25,336 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:26,778 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:26,779 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...pply_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:28,540 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:28,541 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...'warehouse', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:30,417 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:30,418 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'tax', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:31,363 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:31,364 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:32,225 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:32,226 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:33,756 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:33,760 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:35,093 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:35,094 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:36,359 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:36,360 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...t_building', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:37,336 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:37,348 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...l_delivery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:38,596 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:38,597 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ir_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:39,450 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:39,451 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:40,372 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:40,373 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:41,169 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:41,184 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'atm', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:42,339 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:42,340 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:43,588 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:43,588 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:44,398 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:44,399 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...l_delivery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:45,319 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:45,320 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...oan_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:46,399 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:46,400 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ock_broker', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:47,382 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:47,382 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ents_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:48,324 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:48,325 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:49,131 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:49,132 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...tery_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:49,964 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:49,965 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...t_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:51,032 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:51,049 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...iety_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:51,906 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:51,907 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...a_takeaway', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:53,278 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:53,289 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...hone_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:54,388 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:54,389 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...r_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:55,104 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:55,104 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...me_builder', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:57,563 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:57,579 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:58,807 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:58,809 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:17:59,838 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:17:59,838 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:00,849 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:00,868 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...CT 'bakery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:02,216 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:02,216 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:03,249 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:03,261 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...otographer', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:04,747 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:04,748 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ware_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:05,456 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:05,480 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...CT 'rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:06,879 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:06,879 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:08,556 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:08,557 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:09,340 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:09,340 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...are_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:10,821 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:10,822 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:15,425 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:15,426 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...'preschool', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:17,048 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:17,048 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:19,476 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:19,476 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:23,464 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:23,464 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...l_refinery', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:25,551 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:25,560 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'motel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:28,286 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:28,286 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:30,802 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:30,803 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nics_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:33,531 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:33,532 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:35,187 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:35,188 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:36,390 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:36,405 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:37,334 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:37,336 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...hirt_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:38,031 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:38,032 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...'gift_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:38,938 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:38,939 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:40,510 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:40,510 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:41,537 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:41,537 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:42,557 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:42,557 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:43,505 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:43,505 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:44,608 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:44,622 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...offee_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:45,729 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:45,730 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_company', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:46,478 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:46,479 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:48,209 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:48,210 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:50,140 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:50,141 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:51,274 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:51,291 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:52,363 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:52,363 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_planner', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:54,297 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:54,298 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...rift_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:55,653 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:55,653 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:57,161 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:57,161 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:58,159 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:58,159 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...'engineers', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:58,976 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:58,977 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...teak_house', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:18:59,850 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:18:59,850 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...r_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:00,972 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:00,972 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...teak_house', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:01,746 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:01,747 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...game_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:03,726 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:03,732 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:04,853 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:04,853 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:06,301 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:06,301 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:07,410 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:07,410 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:09,022 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:09,023 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ent_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:09,869 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:09,869 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:10,854 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:10,864 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:11,660 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:11,661 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...vie_rental', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:13,016 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:13,016 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:13,937 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:13,938 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:14,819 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:14,820 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arber_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:16,378 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:16,395 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auty_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:18,003 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:18,003 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:19,311 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:19,329 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ank_kiosks', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:20,893 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:20,893 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...hone_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:21,685 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:21,686 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ..._remodeler', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:22,728 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:22,729 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:23,578 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:23,579 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ng_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:24,580 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:24,581 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:25,970 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:25,971 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_facility', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:26,963 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:26,978 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ress_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:27,833 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:27,846 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:28,970 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:28,976 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...hing_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:29,908 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:29,910 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:30,742 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:30,756 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nics_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:31,850 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:31,851 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...llar_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:32,848 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:32,849 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...m_location', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:34,602 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:34,619 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...shoe_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:35,648 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:35,649 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auty_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:36,454 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:36,455 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...game_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:37,366 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:37,367 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:37,949 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:37,949 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_printer', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:43,320 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:43,321 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...e_facility', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:44,044 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:44,044 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...hone_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:45,253 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:45,254 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...pply_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:46,104 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:46,105 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...pply_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:46,995 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:46,996 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ... 'pharmacy', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:48,275 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:48,275 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:49,247 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:49,248 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nd_mailing', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:50,130 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:50,130 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...auty_salon', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:51,333 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:51,334 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:52,358 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:52,358 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'gym', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:53,564 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:53,565 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...pply_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:54,326 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:54,326 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...tic_center', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:55,120 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:55,121 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...tics_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:55,922 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:55,922 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...tics_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:57,293 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:57,294 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ress_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:58,281 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:58,281 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...s_hospital', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:19:58,990 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:19:58,991 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:21:31,129 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:21:31,129 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:21:33,856 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:21:33,856 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...day_saints', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:23:17,071 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:23:17,072 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...t_building', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:23:18,698 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:23:18,698 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:23:27,305 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:23:27,306 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:23:28,621 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:23:28,622 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:24:25,460 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:24:25,461 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:24:32,950 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:24:32,951 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:24:40,535 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:24:40,535 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...t_supplier', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:24:48,384 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:24:48,394 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:24:57,190 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:24:57,191 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...er_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:14,950 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:14,951 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:16,336 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:16,337 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:25,449 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:25,450 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:26,941 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:26,942 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:41,068 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:41,070 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:44,962 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:44,963 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:46,465 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:46,466 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:50,372 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:50,373 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:54,796 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:54,815 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:26:57,778 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:26:57,787 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ideo_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:00,784 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:00,785 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...LECT 'bank', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:01,785 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:01,797 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:03,470 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:03,470 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...arts_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:06,194 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:06,195 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:07,423 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:07,423 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...al_planner', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:11,861 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:11,862 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:13,747 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:13,749 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:22,660 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:22,667 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'atm', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:27:30,767 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:27:30,768 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ment_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:28:05,052 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:28:05,053 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:28:06,921 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:28:06,921 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:28:45,535 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:28:45,536 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:29:57,763 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:29:57,764 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:31:46,724 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:31:46,724 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ount_store', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:31:48,358 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:31:48,359 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...restaurant', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:31:52,496 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:31:52,498 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...on_service', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:32:01,697 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:32:01,699 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'hotel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:32:02,493 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:32:02,503 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:32:08,217 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:32:08,229 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ECT 'motel', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:32:11,524 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:32:11,526 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...nce_agency', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:32:12,695 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:32:12,696 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...dwich_shop', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:32:14,052 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:32:14,053 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ost_office', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:32:16,063 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:32:16,094 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...as_station', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:32:21,530 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:32:21,531 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...m_location', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:33:02,230 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:33:02,231 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...m_location', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+
+2014-09-16 17:33:12,802 - criterrorLogger - CRITICAL - something failed!
+2014-09-16 17:33:12,803 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: ...ELECT 'atm', 'GP' WHERE NOT EXISTS (SELECT 1 FROM type WHERE...
+                                                             ^
+

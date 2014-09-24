@@ -1,0 +1,883 @@
+2014-09-12 07:03:49,206 - errorLogger - CRITICAL - OVER_QUERY_LIMIT: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.05785,-2.30575&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyD4dui7FVSpUwpnrTrMN6NVXoT-C3lYTuI 
+
+2014-09-12 07:04:05,717 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:04:11,292 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:05:01,767 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:05:02,150 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2682030789315510533
+2014-09-12 07:05:02,695 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2942224545071805747
+2014-09-12 07:08:51,562 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15407951069771931281
+2014-09-12 07:08:59,121 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9260933405713495346
+2014-09-12 07:09:06,123 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9407303542607712000
+2014-09-12 07:09:08,670 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9260933405713495346
+2014-09-12 07:09:09,029 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9407303542607712000
+2014-09-12 07:09:09,414 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.12855,-2.30575&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:09:09,520 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.13562,-2.30575&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:15:39,993 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.2346,-2.30575&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:15:40,115 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.24167,-2.30575&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:16:19,034 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5615189272586178581
+2014-09-12 07:17:36,494 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:17:41,349 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:17:41,778 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:18:21,774 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:18:28,658 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:18:29,151 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:18:34,106 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:18:34,544 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:19:17,120 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:19:23,248 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:19:23,682 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:19:28,535 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:19:29,002 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:20:08,875 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:20:13,034 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:20:13,506 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:20:18,417 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:20:31,466 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:20:31,726 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:20:32,146 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.00129,-2.29868&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:23:10,170 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.36893,-1.86741&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:23:33,948 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6800008999919280180
+2014-09-12 07:23:36,350 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2410285738109449091
+2014-09-12 07:30:01,407 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=402467030565760209
+2014-09-12 07:30:17,771 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15121567298923258788
+2014-09-12 07:35:47,981 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:35:52,806 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:35:53,255 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:36:38,250 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:36:44,295 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:36:44,712 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:36:49,711 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:36:50,135 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:37:40,562 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:37:46,906 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:37:47,312 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:37:51,617 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:37:51,996 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:38:34,652 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:38:40,863 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:38:41,254 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:38:46,905 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:39:01,538 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:39:02,506 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:39:55,219 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
+2014-09-12 07:40:08,965 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 07:40:11,630 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:40:14,969 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 07:40:30,558 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:40:59,609 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 07:41:01,592 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:41:03,729 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 07:41:19,875 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:41:56,394 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:41:58,364 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 07:42:12,535 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:42:38,559 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:42:45,065 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:45:01,565 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.96594,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:48:08,786 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90231,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:48:08,872 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90938,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:48:08,969 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.91645,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:48:09,066 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.92352,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:48:09,181 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93059,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:49:11,758 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:49:16,889 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:49:17,324 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:49:58,867 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:50:06,933 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:50:07,819 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:50:13,082 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:50:13,340 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:50:57,452 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:51:03,724 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:51:03,992 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:51:09,027 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:51:09,385 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 07:51:50,489 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:51:55,217 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 07:51:55,518 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:51:59,660 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 07:52:00,845 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 07:52:13,682 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 07:52:15,253 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 07:52:15,615 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 07:52:34,487 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11674416072829079682
+2014-09-12 07:52:35,794 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 07:53:02,726 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11674416072829079682
+2014-09-12 07:53:04,401 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5615189272586178581
+2014-09-12 07:53:33,473 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11674416072829079682
+2014-09-12 07:53:34,826 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5615189272586178581
+2014-09-12 07:53:51,879 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5615189272586178581
+2014-09-12 07:54:17,477 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
+2014-09-12 07:54:27,085 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 07:54:30,161 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
+2014-09-12 07:54:46,913 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 07:54:50,513 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 07:54:55,896 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
+2014-09-12 07:55:21,603 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 07:55:23,934 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:55:26,280 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 07:55:39,707 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:56:11,108 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 07:56:13,301 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:56:15,384 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 07:56:29,535 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:56:58,139 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:57:00,017 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 07:57:14,474 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:57:34,614 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 07:57:40,865 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 07:57:58,027 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.10027,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:57:58,109 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.10734,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:57:58,251 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.11441,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 07:58:14,346 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11462684261925180501
+2014-09-12 07:59:55,757 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3695120183134422106
+2014-09-12 07:59:56,204 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10010838249797480379
+2014-09-12 08:00:00,569 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3906639539111353881
+2014-09-12 08:00:00,994 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5351296722931766859
+2014-09-12 08:00:01,402 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=409586966209514120
+2014-09-12 08:00:21,503 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 08:05:05,431 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.20632,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:05:05,575 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.21339,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:05:05,744 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.22046,-2.28454&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:05:13,059 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 08:05:16,618 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 08:05:22,730 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 08:05:23,076 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 08:05:24,261 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 08:05:24,739 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 08:05:25,000 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 08:05:39,304 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 08:05:39,702 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 08:05:40,165 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 08:05:40,471 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 08:05:41,009 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 08:06:01,380 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 08:06:03,304 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 08:06:03,579 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 08:06:03,868 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 08:06:04,857 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 08:06:05,157 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 08:06:05,600 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 08:06:27,480 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 08:06:27,729 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 08:06:29,351 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 08:06:38,096 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 08:06:38,564 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 08:06:39,924 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 08:06:40,168 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90231,-2.27747&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:06:40,306 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90938,-2.27747&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:06:40,443 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.91645,-2.27747&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:06:40,540 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.92352,-2.27747&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:06:40,656 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93059,-2.27747&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:07:38,819 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 08:07:44,428 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 08:07:44,967 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 08:08:25,570 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 08:08:31,533 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 08:08:31,879 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 08:08:36,833 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 08:08:37,235 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 08:09:18,354 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 08:09:25,659 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 08:09:26,177 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 08:09:31,515 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 08:09:31,905 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15974007141494182893
+2014-09-12 08:10:13,335 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 08:10:19,143 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16056619049189935165
+2014-09-12 08:10:19,463 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 08:10:24,740 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6165438347413445529
+2014-09-12 08:10:26,187 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 08:10:40,301 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 08:10:40,746 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 08:10:42,856 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 08:10:43,289 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13830363989047138034
+2014-09-12 08:10:43,558 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 08:11:08,395 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 08:11:11,572 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11674416072829079682
+2014-09-12 08:11:12,672 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13830363989047138034
+2014-09-12 08:11:13,111 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5615189272586178581
+2014-09-12 08:11:43,395 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 08:11:46,976 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
+2014-09-12 08:11:48,389 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5890805044044435806
+2014-09-12 08:12:05,280 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 08:12:05,606 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 08:12:09,678 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
+2014-09-12 08:12:11,506 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5890805044044435806
+2014-09-12 08:12:30,584 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 08:12:31,023 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 08:12:34,677 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 08:12:40,241 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
+2014-09-12 08:12:49,034 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5890805044044435806
+2014-09-12 08:13:08,264 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 08:13:09,628 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 08:13:12,224 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 08:13:13,296 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 08:13:28,404 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5890805044044435806
+2014-09-12 08:13:29,838 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 08:13:59,942 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 08:14:02,170 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13894571553904706381
+2014-09-12 08:14:03,950 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12901556339637134970
+2014-09-12 08:14:17,907 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4087814954548921923
+2014-09-12 08:14:19,160 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90231,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:14:19,241 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90938,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:14:19,350 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.91645,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:14:19,443 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.92352,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:15:15,098 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 08:15:26,605 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93059,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:15:26,783 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93766,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:15:26,883 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.94473,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:15:26,967 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.9518,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:15:27,048 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.95887,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:15:27,140 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.96594,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:15:36,818 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 08:15:38,046 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 08:15:47,799 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 08:15:48,860 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 08:15:49,332 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 08:16:01,687 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 08:16:02,313 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 08:16:05,222 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 08:16:05,519 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13830363989047138034
+2014-09-12 08:16:06,064 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 08:16:58,758 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 08:17:58,498 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 08:19:37,640 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 08:19:47,527 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5581366116961871653
+2014-09-12 08:19:47,836 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4163780507032736734
+2014-09-12 08:19:58,500 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 08:20:12,674 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 08:20:23,901 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5581366116961871653
+2014-09-12 08:20:24,403 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4163780507032736734
+2014-09-12 08:20:27,654 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 08:20:35,118 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1920453279780260569
+2014-09-12 08:20:35,562 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18208902376344405816
+2014-09-12 08:20:39,224 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 08:27:27,292 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 08:27:28,748 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 08:27:30,920 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 08:27:39,026 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 08:27:39,481 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7463869598605231559
+2014-09-12 08:27:39,813 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2146083327513641965
+2014-09-12 08:27:40,190 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3778807992664570214
+2014-09-12 08:27:41,708 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 08:27:43,543 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 08:27:54,707 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 08:27:55,167 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7463869598605231559
+2014-09-12 08:27:56,566 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2146083327513641965
+2014-09-12 08:27:56,972 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3778807992664570214
+2014-09-12 08:27:58,569 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 08:28:00,331 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6115466385476570353
+2014-09-12 08:28:02,540 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 08:31:25,713 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 08:31:26,021 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 08:31:26,503 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 08:31:32,794 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 08:31:33,217 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14954964116432965809
+2014-09-12 08:31:33,535 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4150551535240430202
+2014-09-12 08:31:34,143 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7155149095376075366
+2014-09-12 08:31:35,506 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 08:31:36,906 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 08:32:10,904 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 08:32:11,287 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 08:32:11,744 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 08:32:15,814 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 08:32:16,091 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14954964116432965809
+2014-09-12 08:32:16,381 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4150551535240430202
+2014-09-12 08:32:16,875 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7155149095376075366
+2014-09-12 08:32:18,314 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 08:32:20,125 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 08:32:45,425 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 08:32:47,572 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 08:32:48,906 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 08:32:49,296 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 08:32:52,618 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 08:32:53,064 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 08:32:53,415 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 08:33:24,303 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 08:33:24,857 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7101941562639832998
+2014-09-12 08:33:26,249 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12706140585652559451
+2014-09-12 08:33:28,503 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 08:33:30,463 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 08:33:31,040 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 08:33:34,225 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 08:33:34,648 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 08:33:34,974 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 08:34:09,368 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 08:35:21,582 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 08:36:22,114 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 08:36:48,874 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90231,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:36:48,973 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90938,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:36:49,072 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.91645,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:36:49,157 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.92352,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:36:49,249 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93059,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:36:49,401 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93766,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:36:49,540 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.94473,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:36:49,626 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.9518,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:37:51,622 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9260933405713495346
+2014-09-12 08:37:52,048 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9407303542607712000
+2014-09-12 08:38:21,755 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 08:38:24,977 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14955686711295763789
+2014-09-12 08:38:51,212 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11674416072829079682
+2014-09-12 08:38:52,409 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 08:39:16,288 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 08:39:19,023 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 08:39:19,480 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 08:39:19,822 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 08:39:21,197 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 08:39:21,585 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 08:39:21,873 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 08:39:38,645 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 08:39:41,003 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11674416072829079682
+2014-09-12 08:39:42,275 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13830363989047138034
+2014-09-12 08:39:42,732 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 08:40:18,776 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11674416072829079682
+2014-09-12 08:40:20,190 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5615189272586178581
+2014-09-12 08:40:22,516 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.10027,-2.27747&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:41:14,702 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2146083327513641965
+2014-09-12 08:41:17,176 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3778807992664570214
+2014-09-12 08:41:27,797 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17040180727889195559
+2014-09-12 08:41:28,051 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4692750830931444615
+2014-09-12 08:41:28,427 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.10734,-2.2704&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:42:32,781 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.97301,-2.26333&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:42:36,079 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 08:42:45,048 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 08:42:49,335 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13830363989047138034
+2014-09-12 08:42:49,725 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 08:43:06,487 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 08:43:06,951 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7463869598605231559
+2014-09-12 08:43:08,293 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2146083327513641965
+2014-09-12 08:43:08,861 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3778807992664570214
+2014-09-12 08:43:10,963 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 08:43:12,201 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6115466385476570353
+2014-09-12 08:43:14,341 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 08:44:14,355 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 08:44:21,368 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.97301,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:44:21,466 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.98008,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:45:03,412 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5559908867018112324
+2014-09-12 08:46:09,937 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13306857230149271216
+2014-09-12 08:46:10,393 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5559908867018112324
+2014-09-12 08:52:50,771 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3691988273693561937
+2014-09-12 08:53:07,497 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.08613,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:53:07,608 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.0932,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:53:07,687 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.10027,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:53:07,812 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.10734,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:53:07,951 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.11441,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:53:51,045 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 08:54:10,441 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 08:54:10,795 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 08:54:13,075 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5581366116961871653
+2014-09-12 08:54:13,604 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4163780507032736734
+2014-09-12 08:54:19,953 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 08:55:57,135 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16411132361312555657
+2014-09-12 08:55:57,617 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7800811233394412945
+2014-09-12 08:55:59,123 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9787748073357731945
+2014-09-12 08:55:59,566 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6294852423163532013
+2014-09-12 08:56:03,191 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16411132361312555657
+2014-09-12 08:56:03,662 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7800811233394412945
+2014-09-12 08:56:03,948 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9787748073357731945
+2014-09-12 08:56:04,520 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6294852423163532013
+2014-09-12 08:56:07,756 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16411132361312555657
+2014-09-12 08:56:08,273 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7800811233394412945
+2014-09-12 08:56:08,556 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9787748073357731945
+2014-09-12 08:56:09,024 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6294852423163532013
+2014-09-12 08:56:11,130 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7800811233394412945
+2014-09-12 08:56:11,642 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6294852423163532013
+2014-09-12 08:56:11,964 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.19218,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:56:12,098 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.19925,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:56:12,219 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.20632,-2.20677&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 08:56:25,935 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17525937069552623738
+2014-09-12 08:56:26,307 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1114419151801212335
+2014-09-12 08:56:28,953 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17923172202021620509
+2014-09-12 08:59:18,604 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17595214610135819643
+2014-09-12 08:59:21,706 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5026771728291758252
+2014-09-12 08:59:32,354 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 08:59:32,728 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 08:59:42,130 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 08:59:43,791 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 08:59:45,770 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 08:59:58,768 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 08:59:59,278 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7463869598605231559
+2014-09-12 08:59:59,572 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2146083327513641965
+2014-09-12 09:00:00,095 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3778807992664570214
+2014-09-12 09:00:02,507 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 09:00:05,100 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 09:00:21,453 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 09:00:22,013 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7463869598605231559
+2014-09-12 09:00:23,237 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2146083327513641965
+2014-09-12 09:00:23,746 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3778807992664570214
+2014-09-12 09:00:26,761 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 09:00:28,239 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6115466385476570353
+2014-09-12 09:00:30,261 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 09:05:18,273 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 09:07:20,279 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 09:08:15,795 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 09:08:32,289 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 09:08:36,971 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5581366116961871653
+2014-09-12 09:08:38,402 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4163780507032736734
+2014-09-12 09:08:45,522 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 09:08:57,214 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14954964116432965809
+2014-09-12 09:08:57,871 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1920453279780260569
+2014-09-12 09:08:59,050 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18208902376344405816
+2014-09-12 09:09:05,843 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 09:09:34,394 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 09:09:54,711 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 09:09:58,890 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5581366116961871653
+2014-09-12 09:09:59,606 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4163780507032736734
+2014-09-12 09:10:06,811 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 09:10:19,163 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1221504582204025701
+2014-09-12 09:10:21,883 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14954964116432965809
+2014-09-12 09:10:22,908 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1920453279780260569
+2014-09-12 09:10:23,771 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18208902376344405816
+2014-09-12 09:10:28,167 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2738664601681074030
+2014-09-12 09:10:32,194 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 09:11:44,104 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4163780507032736734
+2014-09-12 09:11:46,737 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 09:11:55,613 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1221504582204025701
+2014-09-12 09:11:57,772 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1920453279780260569
+2014-09-12 09:11:58,771 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18208902376344405816
+2014-09-12 09:12:01,281 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2738664601681074030
+2014-09-12 09:12:06,270 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 09:13:21,721 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 09:13:24,996 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9731740934647359449
+2014-09-12 09:13:32,391 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1221504582204025701
+2014-09-12 09:13:35,375 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1920453279780260569
+2014-09-12 09:13:36,342 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18208902376344405816
+2014-09-12 09:13:37,639 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4369681997824727693
+2014-09-12 09:13:38,659 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2738664601681074030
+2014-09-12 09:14:48,255 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 09:16:52,201 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 09:17:27,902 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93059,-2.23505&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:17:28,027 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93766,-2.23505&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:17:28,223 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.94473,-2.23505&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:17:28,371 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.9518,-2.23505&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:17:33,336 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16411132361312555657
+2014-09-12 09:17:34,500 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7800811233394412945
+2014-09-12 09:17:35,277 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9787748073357731945
+2014-09-12 09:17:36,413 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6294852423163532013
+2014-09-12 09:17:42,584 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16411132361312555657
+2014-09-12 09:17:43,735 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7800811233394412945
+2014-09-12 09:17:45,061 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9787748073357731945
+2014-09-12 09:17:46,068 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6294852423163532013
+2014-09-12 09:17:50,277 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7800811233394412945
+2014-09-12 09:17:51,562 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6294852423163532013
+2014-09-12 09:17:52,287 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.19218,-2.1997&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:17:52,427 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.19925,-2.1997&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:17:52,583 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.20632,-2.1997&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:17:57,767 - errorLogger - CRITICAL - https://maps.google.com/maps/place?q=Parque+Natural+Pagoeta&ftid=0xd51c988e58de837:0xba0a1cea1c96ce09
+2014-09-12 09:18:00,786 - errorLogger - CRITICAL - https://maps.google.com/maps/place?q=Parque+Natural+Pagoeta&ftid=0xd51c988e58de837:0xba0a1cea1c96ce09
+2014-09-12 09:18:01,909 - errorLogger - CRITICAL - https://maps.google.com/maps/place?q=Parque+Natural+Pagoeta&ftid=0xd51c988e58de837:0xba0a1cea1c96ce09
+2014-09-12 09:18:05,118 - errorLogger - CRITICAL - https://maps.google.com/maps/place?q=Parque+Natural+Pagoeta&ftid=0xd51c988e58de837:0xba0a1cea1c96ce09
+2014-09-12 09:19:16,094 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3723629155563853736
+2014-09-12 09:19:23,110 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12016666490223142434
+2014-09-12 09:20:10,593 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3723629155563853736
+2014-09-12 09:20:15,799 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12016666490223142434
+2014-09-12 09:21:00,065 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3723629155563853736
+2014-09-12 09:21:02,923 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12016666490223142434
+2014-09-12 09:25:08,610 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.9518,-2.19263&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:25:09,239 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6347225009267275576
+2014-09-12 09:25:18,131 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6347225009267275576
+2014-09-12 09:25:19,774 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8190898761340897214
+2014-09-12 09:25:21,429 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6972558641782203862
+2014-09-12 09:25:29,198 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6347225009267275576
+2014-09-12 09:25:31,458 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8190898761340897214
+2014-09-12 09:25:33,044 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6972558641782203862
+2014-09-12 09:30:27,259 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.94473,-2.15728&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:30:27,864 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=222944608502559976
+2014-09-12 09:30:28,720 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13277877947663004539
+2014-09-12 09:30:31,410 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=222944608502559976
+2014-09-12 09:30:32,534 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13277877947663004539
+2014-09-12 09:30:36,540 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=222944608502559976
+2014-09-12 09:30:37,206 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13277877947663004539
+2014-09-12 09:30:54,088 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.99422,-2.15728&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:32:13,375 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6695647278092750566
+2014-09-12 09:33:12,174 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16713796050571216580
+2014-09-12 09:33:18,989 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1617216951620699647
+2014-09-12 09:33:21,653 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17787214188541143603
+2014-09-12 09:33:23,825 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17616166017441622334
+2014-09-12 09:34:09,228 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6695647278092750566
+2014-09-12 09:35:14,509 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16713796050571216580
+2014-09-12 09:35:21,499 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1617216951620699647
+2014-09-12 09:36:37,348 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6695647278092750566
+2014-09-12 09:38:38,810 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6695647278092750566
+2014-09-12 09:44:06,554 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14611791238191376304
+2014-09-12 09:44:08,786 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5891516027913752665
+2014-09-12 09:45:31,416 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8324617704831842101
+2014-09-12 09:45:33,227 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14611791238191376304
+2014-09-12 09:45:37,448 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5891516027913752665
+2014-09-12 09:45:46,965 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16141700058089956848
+2014-09-12 09:46:41,824 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8324617704831842101
+2014-09-12 09:46:50,130 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16141700058089956848
+2014-09-12 09:47:07,588 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14316395223112490421
+2014-09-12 09:47:48,658 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8324617704831842101
+2014-09-12 09:47:58,691 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16141700058089956848
+2014-09-12 09:48:16,601 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14316395223112490421
+2014-09-12 09:48:19,110 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.10734,-2.15728&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 09:48:19,642 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8298514870139676811
+2014-09-12 09:48:20,841 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12194375528608404205
+2014-09-12 09:48:21,825 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6942764491646199631
+2014-09-12 09:48:22,995 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8970783397171248832
+2014-09-12 09:48:25,602 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8298514870139676811
+2014-09-12 09:48:26,683 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11382588733166897307
+2014-09-12 09:48:27,438 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12194375528608404205
+2014-09-12 09:48:28,306 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6942764491646199631
+2014-09-12 09:48:28,991 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8970783397171248832
+2014-09-12 09:48:29,915 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4883660771476507772
+2014-09-12 09:48:48,692 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4082441399432900182
+2014-09-12 09:48:49,755 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8298514870139676811
+2014-09-12 09:48:50,541 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11382588733166897307
+2014-09-12 09:48:52,026 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12194375528608404205
+2014-09-12 09:48:54,405 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2667576537750530235
+2014-09-12 09:48:55,390 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6942764491646199631
+2014-09-12 09:48:56,293 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7785121802871005657
+2014-09-12 09:48:57,180 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8324148760188702702
+2014-09-12 09:48:58,082 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8970783397171248832
+2014-09-12 09:49:00,349 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4883660771476507772
+2014-09-12 09:49:24,665 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4082441399432900182
+2014-09-12 09:49:25,732 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8298514870139676811
+2014-09-12 09:49:26,848 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6502427662257869146
+2014-09-12 09:49:27,893 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11382588733166897307
+2014-09-12 09:49:31,865 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2667576537750530235
+2014-09-12 09:49:32,700 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6942764491646199631
+2014-09-12 09:49:33,941 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7785121802871005657
+2014-09-12 09:49:35,453 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8324148760188702702
+2014-09-12 09:49:38,060 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13331958373939614073
+2014-09-12 09:49:39,287 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4883660771476507772
+2014-09-12 09:50:31,902 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 09:50:32,816 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 09:50:33,856 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 09:50:41,454 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 09:50:42,693 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14954964116432965809
+2014-09-12 09:50:43,428 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4150551535240430202
+2014-09-12 09:50:44,132 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7155149095376075366
+2014-09-12 09:50:46,656 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 09:50:49,427 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 09:51:40,335 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 09:51:44,217 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 09:51:47,088 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 09:51:47,609 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 09:51:51,367 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 09:51:51,949 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 09:51:53,056 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 09:52:54,016 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 09:52:55,021 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7101941562639832998
+2014-09-12 09:52:57,913 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12706140585652559451
+2014-09-12 09:53:01,879 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 09:53:07,348 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 09:53:08,497 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 09:53:14,189 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 09:53:15,330 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 09:53:16,275 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 09:54:28,147 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 09:55:11,305 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 09:55:23,676 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 09:55:30,781 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13830363989047138034
+2014-09-12 09:55:32,005 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16907125332098633525
+2014-09-12 09:56:59,687 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 10:02:02,368 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11151834635016402796
+2014-09-12 10:02:14,217 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11674416072829079682
+2014-09-12 10:02:18,002 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16560968778581896826
+2014-09-12 10:03:31,282 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11151834635016402796
+2014-09-12 10:03:33,564 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 10:03:36,044 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 10:03:43,686 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5615189272586178581
+2014-09-12 10:05:09,682 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 10:05:11,755 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 10:05:12,546 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1144667064763669119
+2014-09-12 10:06:46,624 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 10:06:50,791 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 10:06:53,248 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 10:06:53,937 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1144667064763669119
+2014-09-12 10:07:24,446 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 10:07:25,478 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 10:07:33,998 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5890805044044435806
+2014-09-12 10:07:49,308 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 10:07:51,578 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 10:07:53,979 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5890805044044435806
+2014-09-12 10:08:05,374 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17437514761777632589
+2014-09-12 10:10:56,047 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.12855,-2.25626&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:10:56,154 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.13562,-2.25626&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:10:56,342 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.14269,-2.25626&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:20:49,128 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 10:20:51,622 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 10:20:56,962 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 10:21:21,236 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 10:21:22,303 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7463869598605231559
+2014-09-12 10:21:23,203 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2146083327513641965
+2014-09-12 10:21:23,970 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3778807992664570214
+2014-09-12 10:21:28,380 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 10:21:32,784 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 10:21:59,844 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 10:22:00,479 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7463869598605231559
+2014-09-12 10:22:02,741 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2146083327513641965
+2014-09-12 10:22:04,032 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3778807992664570214
+2014-09-12 10:22:08,353 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 10:22:11,024 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6115466385476570353
+2014-09-12 10:22:15,942 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 10:29:55,277 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 10:29:56,053 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 10:29:57,007 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 10:30:14,754 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 10:30:15,591 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14954964116432965809
+2014-09-12 10:30:16,371 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4150551535240430202
+2014-09-12 10:30:17,606 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7155149095376075366
+2014-09-12 10:30:19,745 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 10:30:23,420 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 10:30:26,351 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 10:31:16,650 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 10:31:17,707 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 10:31:18,687 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 10:31:32,664 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 10:31:33,627 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14954964116432965809
+2014-09-12 10:31:34,315 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4150551535240430202
+2014-09-12 10:31:35,106 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7155149095376075366
+2014-09-12 10:31:36,925 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 10:31:40,548 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 10:31:43,390 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 10:32:41,632 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 10:32:49,563 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 10:32:54,397 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 10:32:55,103 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 10:32:59,012 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 10:33:01,787 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 10:33:02,998 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 10:33:04,043 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 10:34:10,467 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14767692526609556142
+2014-09-12 10:34:11,676 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7101941562639832998
+2014-09-12 10:34:26,988 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12706140585652559451
+2014-09-12 10:34:30,777 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7715468160495884255
+2014-09-12 10:34:35,910 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11511104133003959748
+2014-09-12 10:34:36,733 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16127762554155588948
+2014-09-12 10:34:41,959 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13264838577539913934
+2014-09-12 10:34:42,716 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15182423997276491157
+2014-09-12 10:34:43,411 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3615823107723299312
+2014-09-12 10:35:50,175 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 10:37:55,139 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 10:39:51,993 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 10:40:21,115 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90231,-2.24919&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:40:21,326 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90938,-2.24919&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:40:21,579 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.92352,-2.24919&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:40:21,742 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93059,-2.24919&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:40:21,891 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93766,-2.24919&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:40:22,025 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.94473,-2.24919&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:40:22,199 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.9518,-2.24919&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 10:40:44,119 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14496768976379630934
+2014-09-12 10:40:49,635 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=13830363989047138034
+2014-09-12 10:48:35,302 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11151834635016402796
+2014-09-12 10:48:38,509 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17151204555065520781
+2014-09-12 10:48:40,993 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 10:48:43,610 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 10:49:01,256 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2973326562795791795
+2014-09-12 10:49:05,139 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10558438981782799966
+2014-09-12 10:50:36,735 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 10:50:39,135 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 10:50:39,874 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1144667064763669119
+2014-09-12 10:52:29,216 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 10:52:34,523 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 10:52:38,705 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 10:54:06,699 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 10:54:12,980 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 10:54:17,057 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 10:54:28,906 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5081373394409684546
+2014-09-12 10:54:33,021 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5890805044044435806
+2014-09-12 11:05:25,568 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8274678574822975501
+2014-09-12 11:05:28,180 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6825496770367550763
+2014-09-12 11:05:31,503 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9401657577302396092
+2014-09-12 11:10:12,413 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 11:12:13,599 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 11:13:07,617 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12387836326244218557
+2014-09-12 11:13:37,285 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=810939256518671974
+2014-09-12 11:13:38,091 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7765408614628914664
+2014-09-12 11:13:41,311 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5581366116961871653
+2014-09-12 11:13:42,578 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4163780507032736734
+2014-09-12 11:13:50,880 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 11:15:03,937 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4163780507032736734
+2014-09-12 11:15:07,381 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 11:15:17,966 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1920453279780260569
+2014-09-12 11:15:18,767 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18208902376344405816
+2014-09-12 11:15:25,086 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10197798730549231857
+2014-09-12 11:16:26,613 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=7101941562639832998
+2014-09-12 11:16:28,389 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=15814626189333150223
+2014-09-12 11:16:31,492 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9731740934647359449
+2014-09-12 11:16:33,618 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12706140585652559451
+2014-09-12 11:16:40,453 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1920453279780260569
+2014-09-12 11:16:41,400 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18208902376344405816
+2014-09-12 11:16:45,634 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4369681997824727693
+2014-09-12 11:18:26,195 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 11:20:01,776 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=859732807051349066
+2014-09-12 11:20:33,569 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90231,-2.24212&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:20:33,703 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.90938,-2.24212&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:20:33,834 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.91645,-2.24212&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:20:34,006 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.92352,-2.24212&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:20:34,364 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93059,-2.24212&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:20:34,528 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.93766,-2.24212&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:20:34,772 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.94473,-2.24212&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:20:34,961 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.9518,-2.24212&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:27:22,064 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11151834635016402796
+2014-09-12 11:27:24,646 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17151204555065520781
+2014-09-12 11:27:26,867 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 11:27:29,001 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 11:27:32,683 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5559908867018112324
+2014-09-12 11:27:35,409 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14375962029223226690
+2014-09-12 11:27:54,603 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9732274219994728877
+2014-09-12 11:29:30,376 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6055773737849712704
+2014-09-12 11:29:34,741 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9403658517773933579
+2014-09-12 11:29:35,433 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1144667064763669119
+2014-09-12 11:32:06,890 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12732928307313552931
+2014-09-12 11:32:08,317 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2493805959142481920
+2014-09-12 11:32:09,268 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1046741009847983910
+2014-09-12 11:33:09,237 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10091383165899746417
+2014-09-12 11:33:48,396 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17693626831413110714
+2014-09-12 11:34:01,869 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17693626831413110714
+2014-09-12 11:34:26,778 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1332542814118409878
+2014-09-12 11:34:27,491 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8314857637617528892
+2014-09-12 11:34:28,233 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=17693626831413110714
+2014-09-12 11:34:51,041 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1332542814118409878
+2014-09-12 11:34:52,279 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8314857637617528892
+2014-09-12 11:35:22,714 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8314857637617528892
+2014-09-12 11:35:25,566 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12689727489465173124
+2014-09-12 11:36:58,300 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14557051300356553098
+2014-09-12 11:36:58,877 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=9617116751696092413
+2014-09-12 11:37:01,981 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12689727489465173124
+2014-09-12 11:45:08,164 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.94473,-2.11486&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:45:11,942 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11203378745032039615
+2014-09-12 11:45:18,381 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11203378745032039615
+2014-09-12 11:45:21,286 - errorLogger - CRITICAL - https://maps.google.com/maps/place?q=Parque+Natural+Aralar&ftid=0xd50383f423291df:0xf817056d223bcddf
+2014-09-12 11:45:24,964 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11203378745032039615
+2014-09-12 11:45:27,847 - errorLogger - CRITICAL - https://maps.google.com/maps/place?q=Parque+Natural+Aralar&ftid=0xd50383f423291df:0xf817056d223bcddf
+2014-09-12 11:45:34,005 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11203378745032039615
+2014-09-12 11:46:41,580 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=402467030565760209
+2014-09-12 11:49:48,573 - errorLogger - CRITICAL - OVER_QUERY_LIMIT: https://maps.googleapis.com/maps/api/place/details/json?reference=CoQBdwAAAF2AFJtlM8KXu72c06VIK-7FAJjdVVbalsk1zPEJCmg9SD7fIZlSZyIGRaTjseZxcdVJjOWCD-0vKHaU6MKK6uTKERMkum4DzZeMKxbfZlHrWIwJ9azZqmmb8uEiEVbuf1u_oI_0o7uhDQ0ZJDSudNIr-pTymT1F0YLodHNaDuaBEhASw9Zi7hHS0__L8sAF_lQkGhQiTciNAfDORBL391MAut_vXPpmmA&laguage=en&sensor=false&key=AIzaSyCXOCzjUG83ysKqf4oEtgVlHoxWsC7iIVo 
+
+2014-09-12 11:53:44,748 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14875725625156733945
+2014-09-12 11:53:50,247 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14875725625156733945
+2014-09-12 11:54:12,963 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14875725625156733945
+2014-09-12 11:54:13,898 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4243526599578254461
+2014-09-12 11:54:16,022 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16520491949472113511
+2014-09-12 11:55:37,460 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4243526599578254461
+2014-09-12 11:55:41,288 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16520491949472113511
+2014-09-12 11:57:37,140 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4946570053382110601
+2014-09-12 11:57:37,837 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11357920853398188824
+2014-09-12 11:57:38,786 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18006249235898034603
+2014-09-12 11:57:44,374 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16392510331655216480
+2014-09-12 11:59:00,216 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=4946570053382110601
+2014-09-12 11:59:01,218 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=11357920853398188824
+2014-09-12 11:59:02,297 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=18006249235898034603
+2014-09-12 11:59:09,015 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16392510331655216480
+2014-09-12 11:59:15,585 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1080435211654316635
+2014-09-12 11:59:16,345 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14708250943194840166
+2014-09-12 11:59:17,089 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10276449834942641645
+2014-09-12 11:59:18,462 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=6367983869425594619
+2014-09-12 11:59:19,405 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1748909911230424111
+2014-09-12 11:59:43,117 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=16392510331655216480
+2014-09-12 11:59:43,613 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14708250943194840166
+2014-09-12 11:59:44,780 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3205031835928779793
+2014-09-12 11:59:45,921 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14246239980197975940
+2014-09-12 11:59:54,537 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=14708250943194840166
+2014-09-12 11:59:55,353 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3205031835928779793
+2014-09-12 12:11:01,260 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1015117259604369850
+2014-09-12 12:12:26,999 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12348945519448681366
+2014-09-12 12:12:27,797 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10964020887359971198
+2014-09-12 12:12:28,873 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12585664333730733622
+2014-09-12 12:12:29,650 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=8830020200679462698
+2014-09-12 12:12:30,615 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1614123654822611939
+2014-09-12 12:12:31,590 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3934119340301661093
+2014-09-12 12:12:32,726 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5563848251225842967
+2014-09-12 12:12:50,709 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12348945519448681366
+2014-09-12 12:12:51,674 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=10964020887359971198
+2014-09-12 12:12:52,533 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=12585664333730733622
+2014-09-12 12:12:53,776 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=1614123654822611939
+2014-09-12 12:12:54,802 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=3934119340301661093
+2014-09-12 12:12:55,868 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=5563848251225842967
+2014-09-12 12:12:57,015 - errorLogger - CRITICAL - https://maps.google.com/maps/place?cid=2429907142230680406
+2014-09-12 12:12:57,806 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.96594,-2.45422&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyBXunz47Yja0aLmUGAu3vk0xqZG9WmQ3y4 
+
+2014-09-12 12:12:57,971 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.97301,-2.45422&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyBXunz47Yja0aLmUGAu3vk0xqZG9WmQ3y4 
+
+2014-09-12 12:12:58,124 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=42.98008,-2.45422&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyBXunz47Yja0aLmUGAu3vk0xqZG9WmQ3y4 
+
+2014-09-12 12:13:41,023 - errorLogger - CRITICAL - ZERO_RESULTS: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.03664,-2.45422&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyBXunz47Yja0aLmUGAu3vk0xqZG9WmQ3y4 
+

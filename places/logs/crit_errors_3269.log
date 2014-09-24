@@ -1,0 +1,455 @@
+2014-09-15 13:01:47,455 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:47,455 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'establishment', '...
+                    ^
+
+2014-09-15 13:01:48,695 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:48,696 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'mailing_service',...
+                    ^
+
+2014-09-15 13:01:49,834 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:49,835 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'auto_parts_store'...
+                    ^
+
+2014-09-15 13:01:50,869 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:50,870 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'beauty_salon', 'G...
+                    ^
+
+2014-09-15 13:01:52,723 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:52,741 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'atm', 'GP' WHERE ...
+                    ^
+
+2014-09-15 13:01:53,994 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:53,995 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'church_of_jesus_c...
+                    ^
+
+2014-09-15 13:01:55,398 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:55,398 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'propane_tank_kios...
+                    ^
+
+2014-09-15 13:01:57,207 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:57,213 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'cell_phone_store'...
+                    ^
+
+2014-09-15 13:01:58,267 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:58,268 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'family_restaurant...
+                    ^
+
+2014-09-15 13:01:59,575 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:01:59,576 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'tax_preparation_s...
+                    ^
+
+2014-09-15 13:02:00,466 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:00,466 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'mexican_restauran...
+                    ^
+
+2014-09-15 13:02:01,461 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:01,461 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'self-storage_faci...
+                    ^
+
+2014-09-15 13:02:02,493 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:02,493 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'pharmacy', 'GP' W...
+                    ^
+
+2014-09-15 13:02:03,861 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:03,862 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'fast_food_restaur...
+                    ^
+
+2014-09-15 13:02:04,790 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:04,790 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'telecommunication...
+                    ^
+
+2014-09-15 13:02:06,364 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:06,365 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'dollar_store', 'G...
+                    ^
+
+2014-09-15 13:02:07,957 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:07,958 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'money_transfer_se...
+                    ^
+
+2014-09-15 13:02:09,600 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:09,600 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'shoe_store', 'GP'...
+                    ^
+
+2014-09-15 13:02:10,694 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:10,697 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'beauty_salon', 'G...
+                    ^
+
+2014-09-15 13:02:11,702 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:11,702 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'video_game_store'...
+                    ^
+
+2014-09-15 13:02:12,801 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:12,802 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'donut_shop', 'GP'...
+                    ^
+
+2014-09-15 13:02:13,978 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:13,979 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'american_restaura...
+                    ^
+
+2014-09-15 13:02:14,758 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:14,759 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'shipping_service'...
+                    ^
+
+2014-09-15 13:02:16,103 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:16,103 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'cafe', 'GP' WHERE...
+                    ^
+
+2014-09-15 13:02:17,186 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:17,187 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'self-storage_faci...
+                    ^
+
+2014-09-15 13:02:18,307 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:18,307 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'cell_phone_store'...
+                    ^
+
+2014-09-15 13:02:19,251 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:19,256 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'bagel_shop', 'GP'...
+                    ^
+
+2014-09-15 13:02:20,804 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:20,804 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'cell_phone_store'...
+                    ^
+
+2014-09-15 13:02:21,580 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:21,581 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'swimming_pool_sup...
+                    ^
+
+2014-09-15 13:02:22,535 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:22,545 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'pharmacy', 'GP' W...
+                    ^
+
+2014-09-15 13:02:23,957 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:23,958 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'department_store'...
+                    ^
+
+2014-09-15 13:02:24,972 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:24,974 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'commercial_printe...
+                    ^
+
+2014-09-15 13:02:26,111 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:26,112 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'hair_salon', 'GP'...
+                    ^
+
+2014-09-15 13:02:27,632 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:27,632 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'home_improvement_...
+                    ^
+
+2014-09-15 13:02:28,529 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:28,530 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'physical_fitness_...
+                    ^
+
+2014-09-15 13:02:29,937 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:29,938 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'beauty_supply_sto...
+                    ^
+
+2014-09-15 13:02:30,957 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:30,958 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'diagnostic_center...
+                    ^
+
+2014-09-15 13:02:31,845 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:31,845 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'cosmetics_store',...
+                    ^
+
+2014-09-15 13:02:32,757 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:32,758 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'cosmetics_store',...
+                    ^
+
+2014-09-15 13:02:33,686 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:33,686 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'bank', 'GP' WHERE...
+                    ^
+
+2014-09-15 13:02:34,769 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:34,770 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'atm_location', 'G...
+                    ^
+
+2014-09-15 13:02:35,886 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:35,886 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'mattress_store', ...
+                    ^
+
+2014-09-15 13:02:36,708 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:36,709 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'animal_hospital',...
+                    ^
+
+2014-09-15 13:02:37,730 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:02:37,731 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'weight_loss_servi...
+                    ^
+
+2014-09-15 13:03:20,576 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:20,576 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'restaurant', 'GP'...
+                    ^
+
+2014-09-15 13:03:22,936 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:22,936 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'chicken_restauran...
+                    ^
+
+2014-09-15 13:03:24,306 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:24,306 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'farm', 'GP' WHERE...
+                    ^
+
+2014-09-15 13:03:25,767 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:25,767 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'personal_injury_a...
+                    ^
+
+2014-09-15 13:03:26,763 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:26,764 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'fast_food_restaur...
+                    ^
+
+2014-09-15 13:03:28,862 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:28,862 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'restaurant', 'GP'...
+                    ^
+
+2014-09-15 13:03:29,936 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:29,937 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'variety_store', '...
+                    ^
+
+2014-09-15 13:03:32,114 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:32,115 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'pizza_restaurant'...
+                    ^
+
+2014-09-15 13:03:33,840 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:33,840 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'variety_store', '...
+                    ^
+
+2014-09-15 13:03:34,887 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:34,887 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'pizza_takeaway', ...
+                    ^
+
+2014-09-15 13:03:37,734 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:37,735 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'snack_bar', 'GP' ...
+                    ^
+
+2014-09-15 13:03:38,619 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:38,620 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'auto_parts_store'...
+                    ^
+
+2014-09-15 13:03:40,233 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:40,234 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'tax_preparation_s...
+                    ^
+
+2014-09-15 13:03:42,209 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:42,209 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'gym', 'GP' WHERE ...
+                    ^
+
+2014-09-15 13:03:43,369 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:43,369 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'hardware_store', ...
+                    ^
+
+2014-09-15 13:03:45,756 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:45,757 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'convenience_store...
+                    ^
+
+2014-09-15 13:03:48,989 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:48,990 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'insurance_agency'...
+                    ^
+
+2014-09-15 13:03:50,928 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:50,928 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'service_station',...
+                    ^
+
+2014-09-15 13:03:57,570 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:57,571 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'sandwich_shop', '...
+                    ^
+
+2014-09-15 13:03:59,437 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:03:59,449 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'auto_parts_store'...
+                    ^
+
+2014-09-15 13:04:04,633 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:04,634 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'financial_consult...
+                    ^
+
+2014-09-15 13:04:10,014 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:10,015 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'insurance_agency'...
+                    ^
+
+2014-09-15 13:04:11,744 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:11,744 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'sandwich_shop', '...
+                    ^
+
+2014-09-15 13:04:13,003 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:13,004 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'vending_machine_s...
+                    ^
+
+2014-09-15 13:04:14,654 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:14,654 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'post_office', 'GP...
+                    ^
+
+2014-09-15 13:04:17,274 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:17,275 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'auto_parts_store'...
+                    ^
+
+2014-09-15 13:04:18,316 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:18,316 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'beauty_salon', 'G...
+                    ^
+
+2014-09-15 13:04:19,733 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:19,734 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'atm', 'GP' WHERE ...
+                    ^
+
+2014-09-15 13:04:23,696 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:23,696 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'tax_preparation_s...
+                    ^
+
+2014-09-15 13:04:25,968 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:25,969 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'electronics_store...
+                    ^
+
+2014-09-15 13:04:27,320 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:27,330 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'dollar_store', 'G...
+                    ^
+
+2014-09-15 13:04:28,600 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:28,601 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'atm_location', 'G...
+                    ^
+
+2014-09-15 13:04:40,911 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:40,912 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'insurance_agency'...
+                    ^
+
+2014-09-15 13:04:42,415 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:42,415 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'atm_location', 'G...
+                    ^
+
+2014-09-15 13:04:47,721 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:47,723 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'discount_store', ...
+                    ^
+
+2014-09-15 13:04:50,419 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:50,420 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'snack_bar', 'GP' ...
+                    ^
+
+2014-09-15 13:04:53,110 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:53,124 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'propane_supplier'...
+                    ^
+
+2014-09-15 13:04:56,189 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:04:56,189 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'convenience_store...
+                    ^
+
+2014-09-15 13:05:00,425 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:05:00,426 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'gas_station', 'GP...
+                    ^
+
+2014-09-15 13:05:03,016 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:05:03,017 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'movie_rental', 'G...
+                    ^
+
+2014-09-15 13:05:07,374 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:05:07,375 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'sandwich_shop', '...
+                    ^
+
+2014-09-15 13:05:21,258 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:05:21,258 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'auto_insurance_ag...
+                    ^
+
+2014-09-15 13:05:23,093 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:05:23,103 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'sandwich_shop', '...
+                    ^
+
+2014-09-15 13:05:25,073 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:05:25,074 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'post_office', 'GP...
+                    ^
+
+2014-09-15 13:05:28,572 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:05:28,573 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'atm', 'GP' WHERE ...
+                    ^
+
+2014-09-15 13:05:58,762 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:05:58,767 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'gas_station', 'GP...
+                    ^
+
+2014-09-15 13:06:12,639 - criterrorLogger - CRITICAL - something failed!
+2014-09-15 13:06:12,642 - criterrorLogger - CRITICAL - relation "type" does not exist
+LINE 1: INSERT INTO type (name_en, origin) SELECT 'post_office', 'GP...
+                    ^
+

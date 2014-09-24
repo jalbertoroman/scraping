@@ -98,28 +98,23 @@ def get_chain_places(chain_name, pagetoken=False, location=False, polygon_id=-1)
             # Search with "rank by distance"
             params = {'location' : location, 'rankby' : 'distance', 'types': TYPE, 'language' : LANGUAGE, 'sensor' : 'false', 'name' : chain_name, 'key' : AUTH_KEY}
             url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?'
-#             print '%s\n' % (url)
         elif SEARCH == 'prominence':
             # Search with "prominece with radius"
             params = {'location' : location, 'radius' : RADIUS, 'types': TYPE, 'language' : LANGUAGE, 'sensor' : 'false', 'name' : chain_name, 'key' : AUTH_KEY}
             url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
-#             print '%s\n' % (url)
         else:
             # Search with "radarsearch"
             params = {'location' : location, 'radius' : RADIUS, 'types': TYPE, 'language' : LANGUAGE, 'sensor' : 'false', 'name' : chain_name, 'key' : AUTH_KEY}
             url = 'https://maps.googleapis.com/maps/api/place/radarsearch/json'
-#             print '%s\n' % (url)
     else:
         if SEARCH == 'distance':
             # Search with "rank by distance"
             params = {'location' : location, 'rankby' : 'distance', 'types': TYPE, 'language' : LANGUAGE, 'pagetoken': pagetoken, 'sensor' : 'false', 'name' : chain_name, 'key' : AUTH_KEY}
             url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
-#             print '%s\n' % (url)
         elif SEARCH == 'prominence':
             # Search with "prominece with radius"
             params = {'location' : location, 'radius' : RADIUS, 'types': TYPE, 'language' : LANGUAGE, 'pagetoken': pagetoken, 'sensor' : 'false', 'name' : chain_name, 'key' : AUTH_KEY}
             url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
-
 
     # Send the GET request to the Place details service (using url from above)    
     
@@ -131,18 +126,6 @@ def get_chain_places(chain_name, pagetoken=False, location=False, polygon_id=-1)
         log(e, log_dict, 'error_logger','critical')
         return 500
     
-    # Get the response and use the JSON library to decode the JSON
-#     json_raw = response.read()
-    
-        
-#     # Conection to DB
-#     try:
-#         conn = psycopg2.connect('host=localhost dbname=google_places user=postgres password=admin')
-#     except:
-#         log('Connection Failed', log_dict, 'error_logger','critical')
-    
-#     cur = conn.cursor()
-    
     # Iterate through the results and insert into the DB
     status = json_data['status']
     if status == 'OK':
@@ -150,9 +133,7 @@ def get_chain_places(chain_name, pagetoken=False, location=False, polygon_id=-1)
             log(place, log_dict, 'places_logger','debug')
             idp = place['id'].encode("utf-8")
             reference = place['reference'].encode("utf-8")
-            
-#             cur.execute('SELECT 1 FROM place WHERE id=%s', [idp])
-#             conn.commit()    
+
             if 'reference' in place:# and cur.rowcount == 0:
                 status_details = get_chain_details(reference, polygon_id,chain_name)    
                 
@@ -160,8 +141,7 @@ def get_chain_places(chain_name, pagetoken=False, location=False, polygon_id=-1)
                     return status_details        
                 elif status_details == 500:
                     return 500
-        
-    #     print '%s: %s, %s\n' % (idp, lat , reference)
+                
     elif status == 'ZERO_RESULTS':
         # No results
         log('%s: %s \n' % ('ZERO_RESULTS', response.url), log_dict, 'error_logger','critical')
@@ -184,14 +164,10 @@ def get_chain_places(chain_name, pagetoken=False, location=False, polygon_id=-1)
         log('%s: %s \n' % ('We Fucked up something!', response.url), log_dict, 'error_logger','critical')
 
     
-#     if conn:
-#         conn.close()
-    
     if 'next_page_token' in json_data:
         next_page_token = json_data['next_page_token']
         gPnow = datetime.now()
         gPresto = int(gPnow.strftime('%s')) - int(gPstart.strftime('%s')) # seconds more
-#         print gPresto
         if gPresto < 2:
             time.sleep( 2 )
         getPlaces(next_page_token, location, polygon_id)
@@ -201,11 +177,8 @@ def get_chain_details(reference, polygon_id,chain_name):
     # Compose a URL to query place details
     params = {'reference' : reference, 'language' : LANGUAGE, 'sensor' : 'false', 'key' : AUTH_KEY}
     url = 'https://maps.googleapis.com/maps/api/place/details/json'
-    
-#     print '%s\n' % (url)
+
     # Send the GET request to the Place details service (using url from above)
-#     request = urllib2.Request(url)
-#     request.add_header('User-agent', 'Mozilla/5.0 (Linux i686)')
     try:
         response = requests.get(url,headers={'User-agent': 'Mozilla/5.0 (Linux i686)'},params=params)
         json_data = response.json()
@@ -213,11 +186,7 @@ def get_chain_details(reference, polygon_id,chain_name):
         log('ERROR GETTING PAGE!', log_dict, 'error_logger','critical')
         log(e, log_dict, 'error_logger','critical')
         return 500
-    # Get the response and use the JSON library to decode the JSON
-#     json_raw = response.read()    
-    
-#     response.close()
-        
+
     # Conection to DB
     try:
         conn = psycopg2.connect('host=54.217.205.13 dbname=mapplas_postgis user=postgres password=Y0tsuba!')
@@ -327,6 +296,10 @@ def get_chain_details(reference, polygon_id,chain_name):
     if conn:
         conn.close()
         
+'''
+Get chain's type
+
+'''
 def get_chain_types(url_g, chain_id):
     
     try:        
@@ -345,9 +318,7 @@ def get_chain_types(url_g, chain_id):
             
             if str.find('...') == -1 and str.strip():
                 insert_chain_type(str,'GP', chain_id)
-#             else:
-#                print str.encode("utf-8")
-    
+                
     except requests.exceptions.RequestException as e:
         # Add a type for the missing Google Plus Types so we can keep track of the place and update it        
 
@@ -357,8 +328,10 @@ def get_chain_types(url_g, chain_id):
         insert_chain_type('MGPT','GP', chain_id)
         log('%s: %s \n %s \n' % (chain_id, url_g, e), log_dict, 'error_logger','critical')
     
-    
-    
+'''
+Inserts a new type to DB
+
+'''    
 def insert_chain_type(type, origin, chain_id):
     
     # Conection to DB
@@ -462,11 +435,7 @@ while not done:
                         log('OVER_QUERY_LIMIT and last key!', log_dict, 'error_logger','critical')
                         log('Key Index: %s' % KEY_ARRAY_INDEX, log_dict, 'error_logger','critical')
                         log('Will wait for %s' % resto, log_dict, 'error_logger','critical')
-                        exit()       
-#                         time.sleep(resto)
-#                         KEY_ARRAY_INDEX = 0                    
-#                         AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]
-#                         res = get_chain_places(chain,False, location, polygon_id)
+                        exit()
                     else:
                         KEY_ARRAY_INDEX = KEY_ARRAY_INDEX + 1
                         AUTH_KEY = KEY_ARRAY[KEY_ARRAY_INDEX]

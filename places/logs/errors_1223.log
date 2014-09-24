@@ -1,0 +1,2 @@
+2014-09-12 07:01:22,864 - errorLogger - CRITICAL - OVER_QUERY_LIMIT: https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=43.05078,-2.46836&radius=1500&types=establishment&language=en&sensor=false&key=AIzaSyD4dui7FVSpUwpnrTrMN6NVXoT-C3lYTuI 
+
